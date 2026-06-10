@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1C2230;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#111118;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1C2230;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="goldLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#C9A84C;stop-opacity:0" />
+      <stop offset="30%" style="stop-color:#C9A84C;stop-opacity:0.6" />
+      <stop offset="70%" style="stop-color:#C9A84C;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#C9A84C;stop-opacity:0" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg)" rx="12"/>
+  <!-- Top gold line -->
+  <rect x="100" y="0" width="600" height="2" fill="url(#goldLine)" opacity="0.8"/>
+  <!-- Icon -->
+  <text x="400" y="175" text-anchor="middle" font-size="72" fill="#C9A84C" opacity="0.3">🚌</text>
+  <!-- Vehicle silhouette hint -->
+  <text x="400" y="220" text-anchor="middle" font-family="Georgia, serif" font-size="18" fill="#C9A84C" opacity="0.5" letter-spacing="8">MERCEDES-BENZ SPRINTER</text>
+  <!-- Bottom gold bar -->
+  <rect x="200" y="350" width="400" height="2" fill="#C9A84C" opacity="0.3" rx="1"/>
+  <text x="400" y="385" text-anchor="middle" font-family="serif" font-size="12" fill="#C9A84C" opacity="0.4">LA TÍA DE LA USA</text>
+</svg>

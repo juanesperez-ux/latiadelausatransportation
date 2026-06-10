@@ -1,0 +1,55 @@
+{
+    "description": "La Tía de la USA - Icon Configuration. Edit this file to change menu icons without touching code.",
+    "icons": {
+        "logo": {
+            "tabler": "steering-wheel",
+            "label": "Logo Icon"
+        },
+        "home": {
+            "tabler": "home",
+            "label": "Home"
+        },
+        "fleet": {
+            "tabler": "car",
+            "label": "Fleet"
+        },
+        "services": {
+            "tabler": "briefcase",
+            "label": "Services"
+        },
+        "pricing": {
+            "tabler": "receipt",
+            "label": "Pricing"
+        },
+        "booking": {
+            "tabler": "calendar",
+            "label": "Book Now"
+        },
+        "mobileMenu": {
+            "tabler": "menu-2",
+            "label": "Mobile Menu Toggle"
+        }
+    },
+    "vehicleIcons": {
+        "sedan": "car",
+        "suv": "car-suv",
+        "sprinter": "bus",
+        "luxury": "crown",
+        "default": "car"
+    },
+    "serviceIcons": {
+        "airport": "plane-arrival",
+        "cruise": "ship",
+        "corporate": "building",
+        "events": "music",
+        "hourly": "clock",
+        "rollsroyce": "crown"
+    },
+    "socialIcons": {
+        "phone": "phone-call",
+        "email": "mail",
+        "whatsapp": "brand-whatsapp",
+        "instagram": "brand-instagram",
+        "facebook": "brand-facebook"
+    }
+}

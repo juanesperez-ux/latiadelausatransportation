@@ -1,0 +1,2178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Tía de la USA Transportation — Luxury Black Car Service, South Florida</title>
+    <meta name="description"
+        content="Premium executive black car and luxury transportation serving Miami-Dade, Broward, and Palm Beach counties. Airport transfers, corporate travel, Rolls-Royce experiences.">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
+    <link rel="icon" type="image/svg+xml" href="/public/favicon.svg">
+    <link rel="stylesheet" href="/src/style.css">
+</head>
+
+<body>
+
+    <!-- ════════════════ NAVIGATION ════════════════ -->
+    <nav class="nav" id="topNav">
+        <div class="nav-inner">
+            <a class="nav-logo" onclick="switchPage('home')">
+                <i class="ti ti-steering-wheel logo-icon" data-icon="logo"></i>
+                <span>
+                    <span class="logo-text">La Tía de la USA</span>
+                    <span class="logo-sub">Luxury Transportation</span>
+                </span>
+            </a>
+            <button class="mobile-toggle" onclick="toggleMobileNav()" aria-label="Toggle navigation">
+                <i class="ti ti-menu-2" data-icon="mobileMenu"></i>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a onclick="switchPage('home')" data-page="home" class="active"><i class="ti ti-home"
+                            data-icon="home"></i> Home</a>
+                </li>
+                <li><a onclick="switchPage('fleet')" data-page="fleet"><i class="ti ti-car" data-icon="fleet"></i>
+                        Fleet</a></li>
+                <li><a onclick="switchPage('services')" data-page="services"><i class="ti ti-briefcase"
+                            data-icon="services"></i>
+                        Services</a></li>
+                <li><a onclick="switchPage('pricing')" data-page="pricing"><i class="ti ti-receipt"
+                            data-icon="pricing"></i> Pricing</a>
+                </li>
+                <li><a onclick="switchPage('booking')" data-page="booking" class="nav-cta"><i class="ti ti-calendar"
+                            data-icon="booking"></i> Book Now</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ════════════════ HOME PAGE ════════════════ -->
+    <div class="page active" id="page-home">
+        <section class="hero">
+            <div class="hero-grid">
+                <div class="hero-content">
+                    <div class="hero-badge">
+                        <span class="badge-dot"></span> South Florida's Finest
+                    </div>
+                    <h1>
+                        Arrive with<br>
+                        <span class="gold-line">quiet authority.</span>
+                    </h1>
+                    <p class="hero-sub">
+                        Premium black car service for executives, VIPs, and those who understand that true luxury is
+                        discreet, punctual, and effortless. Serving Miami-Dade, Broward, and Palm Beach.
+                    </p>
+                    <div class="hero-ctas">
+                        <button class="btn btn-primary" onclick="switchPage('booking')">
+                            <i class="ti ti-calendar"></i> Reserve Your Car
+                        </button>
+                        <button class="btn btn-outline" onclick="switchPage('fleet')">
+                            <i class="ti ti-car"></i> Explore Our Fleet
+                        </button>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="hero-card-stack">
+                        <div class="hero-card secondary"></div>
+                        <div class="hero-card primary">
+                            <div class="card-icon"><i class="ti ti-crown"></i></div>
+                            <h3>Executive Black Car</h3>
+                            <p>Cadillac Escalade, Mercedes-Benz S-Class, Rolls-Royce — a curated fleet for those who
+                                refuse to settle.</p>
+                            <div class="hero-features">
+                                <div class="hero-feature">
+                                    <div class="feat-val">3</div>
+                                    <div class="feat-label">Counties Served</div>
+                                </div>
+                                <div class="hero-feature">
+                                    <div class="feat-val">13</div>
+                                    <div class="feat-label">Premium Vehicles</div>
+                                </div>
+                                <div class="hero-feature">
+                                    <div class="feat-val">24/7</div>
+                                    <div class="feat-label">Availability</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="trust-strip">
+            <div class="trust-inner">
+                <div class="trust-item"><i class="ti ti-shield-check"></i> Licensed & Fully Insured</div>
+                <div class="trust-item"><i class="ti ti-clock"></i> Always On Time — Guaranteed</div>
+                <div class="trust-item"><i class="ti ti-map-pin"></i> MIA · FLL · PBI · Ports</div>
+                <div class="trust-item"><i class="ti ti-message-circle"></i> Bilingual Chauffeurs</div>
+                <div class="trust-item"><i class="ti ti-credit-card"></i> No Surge Pricing — Ever</div>
+            </div>
+        </div>
+
+        <section class="section">
+            <div class="section-inner">
+                <div class="section-header" style="text-align:center;">
+                    <span class="section-label">Why La Tía</span>
+                    <h2>The difference is in the details.</h2>
+                    <p style="margin:0 auto;">We are not a rideshare app. We are a family-run, independently owned fleet
+                        that treats every booking as a personal commitment.</p>
+                </div>
+                <div class="features-grid-4">
+                    <div class="why-card">
+                        <div class="why-icon"><i class="ti ti-user-star"></i></div>
+                        <h3>Chauffeur-Quality Drivers</h3>
+                        <p>Professionally trained, background-checked, and bilingual. Your driver is your concierge.</p>
+                    </div>
+                    <div class="why-card">
+                        <div class="why-icon"><i class="ti ti-building-skyscraper"></i></div>
+                        <h3>Corporate Standard</h3>
+                        <p>Direct billing, NDAs, and account management for firms that move people regularly.</p>
+                    </div>
+                    <div class="why-card">
+                        <div class="why-icon"><i class="ti ti-glass-full"></i></div>
+                        <h3>Curated Experiences</h3>
+                        <p>Champagne setups, floral arrangements, and white-glove Rolls-Royce arrivals for milestone
+                            moments.</p>
+                    </div>
+                    <div class="why-card">
+                        <div class="why-icon"><i class="ti ti-chart-bar"></i></div>
+                        <h3>Transparent Pricing</h3>
+                        <p>No surge pricing. No algorithms. Just fair, published rates that never change based on
+                            demand.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Fleet Preview on Home -->
+        <section class="section" style="background:var(--bg-card);max-width:100%;padding-left:0;padding-right:0;">
+            <div class="section-inner">
+                <div class="section-header" style="text-align:center;">
+                    <span class="section-label">The Collection</span>
+                    <h2>Preview Our Fleet</h2>
+                </div>
+                <div class="fleet-preview-grid">
+                    <div class="fleet-preview-card" onclick="switchPage('vehicle-ct5')">
+                        <div class="fpc-img-wrap">
+                            <img class="fpc-img" src="/images/ct5.svg" alt="Cadillac CT5 Executive Sedan" loading="lazy"
+                                onerror="this.parentElement.classList.add('fallback-icon');this.style.display='none'">
+                            <div class="fpc-icon-fallback"><i class="ti ti-car"></i></div>
+                        </div>
+                        <h4>Executive Sedan</h4>
+                        <p>Cadillac CT5 · Mercedes S 580</p>
+                        <span class="fpc-link">View Details <i class="ti ti-arrow-right"></i></span>
+                    </div>
+                    <div class="fleet-preview-card" onclick="switchPage('vehicle-escalade-platinum')">
+                        <div class="fpc-img-wrap">
+                            <img class="fpc-img" src="/images/escalade-platinum.svg"
+                                alt="Cadillac Escalade Platinum Luxury SUV" loading="lazy"
+                                onerror="this.parentElement.classList.add('fallback-icon');this.style.display='none'">
+                            <div class="fpc-icon-fallback"><i class="ti ti-car-suv"></i></div>
+                        </div>
+                        <h4>Luxury SUV</h4>
+                        <p>Cadillac Escalade · Chevrolet Suburban</p>
+                        <span class="fpc-link">View Details <i class="ti ti-arrow-right"></i></span>
+                    </div>
+                    <div class="fleet-preview-card" onclick="switchPage('vehicle-sprinter-limo')">
+                        <div class="fpc-img-wrap">
+                            <img class="fpc-img" src="/images/sprinter-limo.svg" alt="Mercedes-Benz Sprinter Limo Van"
+                                loading="lazy"
+                                onerror="this.parentElement.classList.add('fallback-icon');this.style.display='none'">
+                            <div class="fpc-icon-fallback"><i class="ti ti-bus"></i></div>
+                        </div>
+                        <h4>Sprinter Van</h4>
+                        <p>Sprinter Limo · Executive Van</p>
+                        <span class="fpc-link">View Details <i class="ti ti-arrow-right"></i></span>
+                    </div>
+                    <div class="fleet-preview-card" onclick="switchPage('vehicle-cullinan')">
+                        <div class="fpc-img-wrap">
+                            <img class="fpc-img" src="/images/cullinan.svg" alt="Rolls-Royce Cullinan Ultra Luxury SUV"
+                                loading="lazy"
+                                onerror="this.parentElement.classList.add('fallback-icon');this.style.display='none'">
+                            <div class="fpc-icon-fallback"><i class="ti ti-crown"></i></div>
+                        </div>
+                        <h4>Ultra Luxury</h4>
+                        <p>Rolls-Royce Cullinan · Phantom</p>
+                        <span class="fpc-link">View Details <i class="ti ti-arrow-right"></i></span>
+                    </div>
+                </div>
+                <div style="text-align:center;margin-top:2rem;">
+                    <button class="btn btn-outline" onclick="switchPage('fleet')">View Full Fleet Directory</button>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- ════════════════ FLEET DIRECTORY PAGE ════════════════ -->
+    <div class="page" id="page-fleet">
+        <section class="section">
+            <div class="section-inner">
+                <div class="section-header">
+                    <span class="section-label">Our Fleet</span>
+                    <h2>A vehicle for every occasion.</h2>
+                    <p>Thirteen premium vehicles across five categories — each maintained to concierge standards and
+                        available for immediate reservation.</p>
+                </div>
+
+                <!-- Category: Sedan -->
+                <div class="fleet-category-section">
+                    <div class="fcs-header">
+                        <div>
+                            <span class="section-label">Sedan Collection</span>
+                            <h3 class="fcs-title">Executive Sedans</h3>
+                            <p class="fcs-desc">Understated elegance for the business traveler. Refined interiors,
+                                whisper-quiet cabins, and the composed authority expected at every corporate arrival.
+                                Ideal for airport transfers, executive meetings, and point-to-point city travel.</p>
+                        </div>
+                        <div class="fcs-stats">
+                            <div class="fcs-stat"><span class="fcs-stat-num">3</span><span
+                                    class="fcs-stat-label">Vehicles</span></div>
+                            <div class="fcs-stat"><span class="fcs-stat-num">1-5</span><span
+                                    class="fcs-stat-label">Passengers</span></div>
+                            <div class="fcs-stat"><span class="fcs-stat-num">$75+</span><span
+                                    class="fcs-stat-label">Airport From</span></div>
+                        </div>
+                    </div>
+                    <div class="fcs-vehicles">
+                        <div class="fcs-vehicle-card" onclick="switchPage('vehicle-ct5')">
+                            <div class="fcs-vc-img"><i class="ti ti-car"></i></div>
+                            <h4>Cadillac CT5 · 350T</h4>
+                            <p>Executive Sedan · 1–3 Passengers</p>
+                            <div class="fcs-vc-price">From $75 Airport</div>
+                            <span class="fcs-vc-link">Full Details <i class="ti ti-arrow-right"></i></span>
+                        </div>
+                        <div class="fcs-vehicle-card" onclick="switchPage('vehicle-s580')">
+                            <div class="fcs-vc-img"><i class="ti ti-car"></i></div>
+                            <h4>Mercedes-Benz S 580</h4>
+                            <p>Luxury Sedan · 1–3 Passengers</p>
+                            <div class="fcs-vc-price">From $95 Airport</div>
+                            <span class="fcs-vc-link">Full Details <i class="ti ti-arrow-right"></i></span>
+                        </div>
+                        <div class="fcs-vehicle-card" onclick="switchPage('vehicle-tahoe')">
+                            <div class="fcs-vc-img"><i class="ti ti-car-suv"></i></div>
+                            <h4>Chevrolet Tahoe</h4>
+                            <p>Sedan/SUV Hybrid · 1–5 Passengers</p>
+                            <div class="fcs-vc-price">From $85 Airport</div>
+                            <span class="fcs-vc-link">Full Details <i class="ti ti-arrow-right"></i></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Category: SUV -->
+                <div class="fleet-category-section">
+                    <div class="fcs-header">
+                        <div>
+                            <span class="section-label">SUV Collection</span>
+                            <h3 class="fcs-title">Luxury SUVs</h3>
+                            <p class="fcs-desc">Commanding presence meets executive comfort. Our SUV lineup is the
+                                backbone of South Florida group transportation — from the versatile Suburban to the
+                                flagship Escalade Platinum. Designed for delegations, families, and travelers who need
+                                space without compromise.</p>
+                        </div>
+                        <div class="fcs-stats">
+                            <div class="fcs-stat"><span class="fcs-stat-num">6</span><span
+                                    class="fcs-stat-label">Vehicles</span></div>
+                            <div class="fcs-stat"><span class="fcs-stat-num">6-7</span><span
+                                    class="fcs-stat-label">Passengers</span></div>
+                            <div class="fcs-stat"><span class="fcs-stat-num">$95+</span><span
+                                    class="fcs-stat-label">Airport From</span></div>
+                        </div>
+                    </div>
+                    <div class="fcs-vehicles">
+                        <div class="fcs-vehicle-card" onclick="switchPage('vehicle-suburban6')">
+                            <div class="fcs-vc-img"><i class="ti ti-car-suv"></i></div>
+                            <h4>Chevrolet Suburban · 6P</h4>
+                            <p>Full-Size SUV · 1–6 Passengers</p>
+                            <div class="fcs-vc-price">From $95 Airport</div>
+                            <span class="fcs-vc-link">Full Details <i class="ti ti-arrow-right"></i></span>
+                        </div>
+                        <div class="fcs-vehicle-card" onclick="switchPage('vehicle-suburban7')">
+                            <div class="fcs-vc-img"><i class="ti ti-car-suv"></i></div>
+                            <h4>Chevrolet Suburban · 7P</h4>
+                            <p>Full-Size SUV · 1–7 Passengers</p>
+                            <div class="fcs-vc-price">From $100 Airport</div>
+                            <span class="fcs-vc-link">Full Details <i class="ti ti-arrow-right"></i></span>
+                        </div>
+                        <div class="fcs-vehicle-card" onclick="switchPage('vehicle-escalade6')">
+                            <div class="fcs-vc-img"><i class="ti ti-car-suv"></i></div>
+                            <h4>Cadillac Escalade · 6P</h4>
+                            <p>Luxury SUV · 1–6 Passengers</p>
+                            <div class="fcs-vc-price">From $115 Airport</div>
+                            <span class="fcs-vc-link">Full Details <i class="ti ti-arrow-right"></i></span>
+                        </div>
+                        <div class="fcs-vehicle-card" onclick="switchPage('vehicle-escalade7')">
+                            <div class="fcs-vc-img"><i class="ti ti-car-suv"></i></div>
+                            <h4>Cadillac Escalade · 7P</h4>
+                            <p>Luxury SUV · 1–7 Passengers</p>
+                            <div class="fcs-vc-price">From $120 Airport</div>
+                            <span class="fcs-vc-link">Full Details <i class="ti ti-arrow-right"></i></span>
+                        </div>
+                        <div class="fcs-vehicle-card" onclick="switchPage('vehicle-escalade-sport')">
+                            <div class="fcs-vc-img"><i class="ti ti-car-suv"></i></div>
+                            <h4>Escalade Sport Luxury</h4>
+                            <p>Luxury SUV · 1–6 Passengers</p>
+                            <div class="fcs-vc-price">From $130 Airport</div>
+                            <span class="fcs-vc-link">Full Details <i class="ti ti-arrow-right"></i></span>
+                        </div>
+                        <div class="fcs-vehicle-card" onclick="switchPage('vehicle-escalade-platinum')">
+                            <div class="fcs-vc-img"><i class="ti ti-car-suv"></i></div>
+                            <h4>Escalade Platinum Lux</h4>
+                            <p>Luxury SUV · Top Tier · 1–7 Passengers</p>
+                            <div class="fcs-vc-price">From $140 Airport</div>
+                            <span class="fcs-vc-link">Full Details <i class="ti ti-arrow-right"></i></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Category: Sprinter -->
+                <div class="fleet-category-section">
+                    <div class="fcs-header">
+                        <div>
+                            <span class="section-label">Sprinter Collection</span>
+                            <h3 class="fcs-title">Sprinter Vans</h3>
+                            <p class="fcs-desc">Group travel reimagined. Our Mercedes-Benz Sprinters accommodate up to
+                                14 passengers without sacrificing comfort. Perfect for corporate retreats, cruise port
+                                transfers, concert groups, and family reunions — everyone travels together, in style.
+                            </p>
+                        </div>
+                        <div class="fcs-stats">
+                            <div class="fcs-stat"><span class="fcs-stat-num">2</span><span
+                                    class="fcs-stat-label">Vehicles</span></div>
+                            <div class="fcs-stat"><span class="fcs-stat-num">Up to 14</span><span
+                                    class="fcs-stat-label">Passengers</span></div>
+                            <div class="fcs-stat"><span class="fcs-stat-num">$160+</span><span
+                                    class="fcs-stat-label">Airport From</span></div>
+                        </div>
+                    </div>
+                    <div class="fcs-vehicles">
+                        <div class="fcs-vehicle-card" onclick="switchPage('vehicle-sprinter')">
+                            <div class="fcs-vc-img"><i class="ti ti-bus"></i></div>
+                            <h4>Sprinter · Executive</h4>
+                            <p>Executive Van · Up to 14 Passengers</p>
+                            <div class="fcs-vc-price">From $160 Airport</div>
+                            <span class="fcs-vc-link">Full Details <i class="ti ti-arrow-right"></i></span>
+                        </div>
+                        <div class="fcs-vehicle-card" onclick="switchPage('vehicle-sprinter-limo')">
+                            <div class="fcs-vc-img"><i class="ti ti-bus"></i></div>
+                            <h4>Sprinter · Limo</h4>
+                            <p>VIP Limousine · Up to 14 Passengers</p>
+                            <div class="fcs-vc-price">From $250 Event</div>
+                            <span class="fcs-vc-link">Full Details <i class="ti ti-arrow-right"></i></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Category: Ultra Luxury -->
+                <div class="fleet-category-section">
+                    <div class="fcs-header">
+                        <div>
+                            <span class="section-label">Ultra Luxury Collection</span>
+                            <h3 class="fcs-title">Rolls-Royce</h3>
+                            <p class="fcs-desc">The definitive statement of arrival. Our Rolls-Royce Cullinan and
+                                Phantom are reserved for milestone occasions — weddings, gala entrances, proposals, and
+                                moments that demand nothing less than the world's most prestigious automobiles. Each
+                                booking includes a dedicated chauffeur and white-glove concierge coordination.</p>
+                        </div>
+                        <div class="fcs-stats">
+                            <div class="fcs-stat"><span class="fcs-stat-num">2</span><span
+                                    class="fcs-stat-label">Vehicles</span></div>
+                            <div class="fcs-stat"><span class="fcs-stat-num">3-4</span><span
+                                    class="fcs-stat-label">Passengers</span></div>
+                            <div class="fcs-stat"><span class="fcs-stat-num">$450+</span><span
+                                    class="fcs-stat-label">Min Booking</span></div>
+                        </div>
+                    </div>
+                    <div class="fcs-vehicles">
+                        <div class="fcs-vehicle-card premium-glow" onclick="switchPage('vehicle-cullinan')">
+                            <div class="fcs-vc-img"><i class="ti ti-crown"></i></div>
+                            <h4>Rolls-Royce Cullinan</h4>
+                            <p>Ultra Luxury SUV · 1–4 Passengers</p>
+                            <div class="fcs-vc-price">From $450 / Booking</div>
+                            <span class="fcs-vc-link">Full Details <i class="ti ti-arrow-right"></i></span>
+                        </div>
+                        <div class="fcs-vehicle-card premium-glow" onclick="switchPage('vehicle-phantom')">
+                            <div class="fcs-vc-img"><i class="ti ti-crown"></i></div>
+                            <h4>Rolls-Royce Phantom</h4>
+                            <p>Ultra Luxury Sedan · 1–3 Passengers</p>
+                            <div class="fcs-vc-price">From $550 / Booking</div>
+                            <span class="fcs-vc-link">Full Details <i class="ti ti-arrow-right"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- ════════════════ INDIVIDUAL VEHICLE PAGES ════════════════ -->
+    <!-- CT5 -->
+    <div class="page vehicle-detail-page" id="page-vehicle-ct5">
+        <section class="section">
+            <div class="section-inner">
+                <a class="back-link" onclick="switchPage('fleet')"><i class="ti ti-arrow-left"></i> Back to Fleet</a>
+                <div class="vd-hero">
+                    <div class="vd-hero-content">
+                        <span class="section-label">Executive Sedan</span>
+                        <h1>Cadillac CT5 · 350T</h1>
+                        <p class="vd-subtitle">The composed professional — refined, responsive, and perfectly
+                            understated for the executive who lets results speak.</p>
+                        <div class="vd-quick-stats">
+                            <div class="vd-stat"><i class="ti ti-users"></i> 1–3 Passengers</div>
+                            <div class="vd-stat"><i class="ti ti-briefcase"></i> 2 Large + 2 Carry-On</div>
+                            <div class="vd-stat"><i class="ti ti-gauge"></i> Executive Category</div>
+                        </div>
+                    </div>
+                    <div class="vd-hero-visual">
+                        <div class="vd-visual-placeholder"><i class="ti ti-car"></i></div>
+                    </div>
+                </div>
+
+                <div class="vd-layout">
+                    <div class="vd-main">
+                        <h3>About This Vehicle</h3>
+                        <p>The Cadillac CT5 defines executive composure. Sleek, powerful, and refined in every detail —
+                            it delivers the quiet authority demanded by business travelers and discerning clients alike.
+                            The 350T turbocharged engine provides confident acceleration while the QuietTuning active
+                            noise cancellation ensures a serene cabin environment.</p>
+                        <p>This is the ideal choice for airport transfers, corporate meetings, and point-to-point city
+                            travel where professionalism matters as much as comfort.</p>
+
+                        <h3>Key Features</h3>
+                        <ul class="vd-features-list">
+                            <li><i class="ti ti-check"></i> Leather-appointed seating with heated front seats</li>
+                            <li><i class="ti ti-check"></i> Dual-zone automatic climate control</li>
+                            <li><i class="ti ti-check"></i> Premium Bose audio system with 9 speakers</li>
+                            <li><i class="ti ti-check"></i> Onboard Wi-Fi hotspot capability</li>
+                            <li><i class="ti ti-check"></i> QuietTuning active noise cancellation</li>
+                            <li><i class="ti ti-check"></i> Wireless Apple CarPlay & Android Auto</li>
+                            <li><i class="ti ti-check"></i> HD Rear Vision Camera & safety suite</li>
+                        </ul>
+
+                        <h3>Best For</h3>
+                        <div class="vd-tags">
+                            <span class="vd-tag">Airport Transfers</span>
+                            <span class="vd-tag">Executive Meetings</span>
+                            <span class="vd-tag">Solo Business Travel</span>
+                            <span class="vd-tag">Point-to-Point</span>
+                        </div>
+                    </div>
+                    <div class="vd-sidebar">
+                        <div class="vd-pricing-card">
+                            <h4>Pricing</h4>
+                            <div class="vd-price-row"><span>Per Mile</span><strong>$3.50</strong></div>
+                            <div class="vd-price-row"><span>Airport Transfer (from)</span><strong>$75</strong></div>
+                            <div class="vd-price-row"><span>Per Hour</span><strong>$90</strong></div>
+                            <div class="vd-price-row"><span>Meet & Greet</span><strong>+$30</strong></div>
+                            <button class="btn btn-primary" style="width:100%;margin-top:1rem;"
+                                onclick="switchPage('booking')">Reserve This Vehicle</button>
+                        </div>
+
+                        <div class="vd-market-compare">
+                            <h4>Market Comparison</h4>
+                            <div class="compare-bar">
+                                <div class="compare-label">La Tía CT5</div>
+                                <div class="compare-track">
+                                    <div class="compare-fill" style="width:63%">$3.50/mi</div>
+                                </div>
+                            </div>
+                            <div class="compare-bar">
+                                <div class="compare-label">Uber Black</div>
+                                <div class="compare-track">
+                                    <div class="compare-fill other" style="width:52%">$2.90/mi</div>
+                                </div>
+                            </div>
+                            <div class="compare-bar">
+                                <div class="compare-label">Blacklane</div>
+                                <div class="compare-track">
+                                    <div class="compare-fill other" style="width:81%">$4.50/mi</div>
+                                </div>
+                            </div>
+                            <div class="compare-bar">
+                                <div class="compare-label">Local Black Car</div>
+                                <div class="compare-track">
+                                    <div class="compare-fill other" style="width:72%">$4.00/mi</div>
+                                </div>
+                            </div>
+                            <p class="compare-note">Market rates shown for comparable sedan service in Miami-Dade. Uber
+                                Black subject to surge pricing — our rate is <strong>fixed, not variable</strong>.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="vd-extras">
+                    <h3>Available Add-Ons for This Vehicle</h3>
+                    <div class="vd-extras-grid">
+                        <div class="vd-extra-item"><i class="ti ti-baby-carriage"></i><span>Infant Car Seat —
+                                +$15</span></div>
+                        <div class="vd-extra-item"><i class="ti ti-baby-carriage"></i><span>Toddler Seat — +$15</span>
+                        </div>
+                        <div class="vd-extra-item"><i class="ti ti-glass-full"></i><span>Champagne Setup — +$45</span>
+                        </div>
+                        <div class="vd-extra-item"><i class="ti ti-flower"></i><span>Floral Arrangement — +$65</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="text-align:center;margin-top:3rem;">
+                    <button class="btn btn-primary" onclick="switchPage('booking')"><i class="ti ti-calendar"></i>
+                        Reserve the Cadillac CT5</button>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- S 580 -->
+    <div class="page vehicle-detail-page" id="page-vehicle-s580">
+        <section class="section">
+            <div class="section-inner">
+                <a class="back-link" onclick="switchPage('fleet')"><i class="ti ti-arrow-left"></i> Back to Fleet</a>
+                <div class="vd-hero">
+                    <div class="vd-hero-content">
+                        <span class="section-label">Luxury Sedan</span>
+                        <h1>Mercedes-Benz S 580</h1>
+                        <p class="vd-subtitle">The benchmark by which all luxury sedans are measured — a rolling
+                            sanctuary of craftsmanship, technology, and serene composure.</p>
+                        <div class="vd-quick-stats">
+                            <div class="vd-stat"><i class="ti ti-users"></i> 1–3 Passengers</div>
+                            <div class="vd-stat"><i class="ti ti-briefcase"></i> 2 Large + 2 Carry-On</div>
+                            <div class="vd-stat"><i class="ti ti-gauge"></i> Ultra Premium Category</div>
+                        </div>
+                    </div>
+                    <div class="vd-hero-visual">
+                        <div class="vd-visual-placeholder"><i class="ti ti-car"></i></div>
+                    </div>
+                </div>
+
+                <div class="vd-layout">
+                    <div class="vd-main">
+                        <h3>About This Vehicle</h3>
+                        <p>The S-Class is widely regarded as the world's most distinguished automotive expression. The S
+                            580 variant raises this standard further — a rolling sanctuary of craftsmanship, technology,
+                            and unmatched refinement. With its 496-horsepower V8 engine, AIRMATIC air suspension, and
+                            4MATIC all-wheel drive, it delivers a ride experience that transcends transportation.</p>
+                        <p>Every surface is wrapped in Nappa leather. Every sound is curated by the Burmester 4D audio
+                            system. Every journey becomes an occasion.</p>
+
+                        <h3>Key Features</h3>
+                        <ul class="vd-features-list">
+                            <li><i class="ti ti-check"></i> Nappa leather interior with massaging front & rear seats
+                            </li>
+                            <li><i class="ti ti-check"></i> Burmester 4D surround sound system — 30 speakers</li>
+                            <li><i class="ti ti-check"></i> MBUX Hyperscreen & rear-seat entertainment</li>
+                            <li><i class="ti ti-check"></i> Executive rear seat package with power recline</li>
+                            <li><i class="ti ti-check"></i> Air Balance fragrance system</li>
+                            <li><i class="ti ti-check"></i> AIRMATIC air suspension with adaptive damping</li>
+                            <li><i class="ti ti-check"></i> Ambient lighting with 64 color options</li>
+                        </ul>
+
+                        <h3>Best For</h3>
+                        <div class="vd-tags">
+                            <span class="vd-tag">VIP Airport Transfers</span>
+                            <span class="vd-tag">C-Suite Travel</span>
+                            <span class="vd-tag">Client Entertainment</span>
+                            <span class="vd-tag">Red Carpet Events</span>
+                        </div>
+                    </div>
+                    <div class="vd-sidebar">
+                        <div class="vd-pricing-card">
+                            <h4>Pricing</h4>
+                            <div class="vd-price-row"><span>Per Mile</span><strong>$4.50</strong></div>
+                            <div class="vd-price-row"><span>Airport Transfer (from)</span><strong>$95</strong></div>
+                            <div class="vd-price-row"><span>Per Hour</span><strong>$115</strong></div>
+                            <div class="vd-price-row"><span>Meet & Greet</span><strong>+$30</strong></div>
+                            <button class="btn btn-primary" style="width:100%;margin-top:1rem;"
+                                onclick="switchPage('booking')">Reserve This Vehicle</button>
+                        </div>
+                        <div class="vd-market-compare">
+                            <h4>Market Comparison</h4>
+                            <div class="compare-bar">
+                                <div class="compare-label">La Tía S 580</div>
+                                <div class="compare-track">
+                                    <div class="compare-fill" style="width:70%">$4.50/mi</div>
+                                </div>
+                            </div>
+                            <div class="compare-bar">
+                                <div class="compare-label">Blacklane Business</div>
+                                <div class="compare-track">
+                                    <div class="compare-fill other" style="width:85%">$5.40/mi</div>
+                                </div>
+                            </div>
+                            <div class="compare-bar">
+                                <div class="compare-label">Uber Black SUV</div>
+                                <div class="compare-track">
+                                    <div class="compare-fill other" style="width:62%">$4.00/mi</div>
+                                </div>
+                            </div>
+                            <div class="compare-bar">
+                                <div class="compare-label">Local Limo Service</div>
+                                <div class="compare-track">
+                                    <div class="compare-fill other" style="width:93%">$5.95/mi</div>
+                                </div>
+                            </div>
+                            <p class="compare-note">The S 580 offers <strong>above-rideshare quality at below-limo
+                                    pricing</strong>. Fixed rates, no surge.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="vd-extras">
+                    <h3>Available Add-Ons</h3>
+                    <div class="vd-extras-grid">
+                        <div class="vd-extra-item"><i class="ti ti-baby-carriage"></i><span>Infant Car Seat —
+                                +$15</span></div>
+                        <div class="vd-extra-item"><i class="ti ti-glass-full"></i><span>Champagne Service — +$45</span>
+                        </div>
+                        <div class="vd-extra-item"><i class="ti ti-flower"></i><span>Floral Arrangement — +$65</span>
+                        </div>
+                        <div class="vd-extra-item"><i class="ti ti-device-imac"></i><span>Privacy Partition —
+                                Included</span></div>
+                    </div>
+                </div>
+
+                <div style="text-align:center;margin-top:3rem;">
+                    <button class="btn btn-primary" onclick="switchPage('booking')"><i class="ti ti-calendar"></i>
+                        Reserve the Mercedes-Benz S 580</button>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Tahoe -->
+    <div class="page vehicle-detail-page" id="page-vehicle-tahoe">
+        <section class="section">
+            <div class="section-inner">
+                <a class="back-link" onclick="switchPage('fleet')"><i class="ti ti-arrow-left"></i> Back to Fleet</a>
+                <div class="vd-hero">
+                    <div class="vd-hero-content">
+                        <span class="section-label">Sedan / SUV Hybrid</span>
+                        <h1>Chevrolet Tahoe</h1>
+                        <p class="vd-subtitle">Executive presence meets commanding stature — the versatile bridge
+                            between premium sedan comfort and SUV capability.</p>
+                        <div class="vd-quick-stats">
+                            <div class="vd-stat"><i class="ti ti-users"></i> 1–5 Passengers</div>
+                            <div class="vd-stat"><i class="ti ti-briefcase"></i> 3 Large + 3 Carry-On</div>
+                            <div class="vd-stat"><i class="ti ti-gauge"></i> Premium Category</div>
+                        </div>
+                    </div>
+                    <div class="vd-hero-visual">
+                        <div class="vd-visual-placeholder"><i class="ti ti-car-suv"></i></div>
+                    </div>
+                </div>
+
+                <div class="vd-layout">
+                    <div class="vd-main">
+                        <h3>About This Vehicle</h3>
+                        <p>The Chevrolet Tahoe bridges the gap between premium sedan comfort and the assured elevation
+                            of an SUV. Its spacious three-row interior provides genuine room for up to five passengers
+                            with generous cargo capacity — ideal for airport transfers and executive arrivals that make
+                            a quiet impression without excess.</p>
+
+                        <h3>Key Features</h3>
+                        <ul class="vd-features-list">
+                            <li><i class="ti ti-check"></i> Spacious three-row interior with leather appointments</li>
+                            <li><i class="ti ti-check"></i> Premium audio system</li>
+                            <li><i class="ti ti-check"></i> Tri-zone automatic climate control</li>
+                            <li><i class="ti ti-check"></i> Ample cargo space for group luggage</li>
+                            <li><i class="ti ti-check"></i> Smooth highway ride quality</li>
+                            <li><i class="ti ti-check"></i> Onboard Wi-Fi hotspot</li>
+                        </ul>
+
+                        <h3>Best For</h3>
+                        <div class="vd-tags">
+                            <span class="vd-tag">Family Airport Transfers</span>
+                            <span class="vd-tag">Small Group Travel</span>
+                            <span class="vd-tag">Cruise Port Pickups</span>
+                            <span class="vd-tag">Shopping Excursions</span>
+                        </div>
+                    </div>
+                    <div class="vd-sidebar">
+                        <div class="vd-pricing-card">
+                            <h4>Pricing</h4>
+                            <div class="vd-price-row"><span>Per Mile</span><strong>$3.75</strong></div>
+                            <div class="vd-price-row"><span>Airport Transfer (from)</span><strong>$85</strong></div>
+                            <div class="vd-price-row"><span>Per Hour</span><strong>$95</strong></div>
+                            <div class="vd-price-row"><span>Meet & Greet</span><strong>+$30</strong></div>
+                            <button class="btn btn-primary" style="width:100%;margin-top:1rem;"
+                                onclick="switchPage('booking')">Reserve This Vehicle</button>
+                        </div>
+                        <div class="vd-market-compare">
+                            <h4>Market Comparison</h4>
+                            <div class="compare-bar">
+                                <div class="compare-label">La Tía Tahoe</div>
+                                <div class="compare-track">
+                                    <div class="compare-fill" style="width:58%">$3.75/mi</div>
+                                </div>
+                            </div>
+                            <div class="compare-bar">
+                                <div class="compare-label">Uber XL</div>
+                                <div class="compare-track">
+                                    <div class="compare-fill other" style="width:48%">$3.15/mi</div>
+                                </div>
+                            </div>
+                            <div class="compare-bar">
+                                <div class="compare-label">Blacklane Van</div>
+                                <div class="compare-track">
+                                    <div class="compare-fill other" style="width:82%">$5.30/mi</div>
+                                </div>
+                            </div>
+                            <div class="compare-bar">
+                                <div class="compare-label">Local SUV Service</div>
+                                <div class="compare-track">
+                                    <div class="compare-fill other" style="width:70%">$4.50/mi</div>
+                                </div>
+                            </div>
+                            <p class="compare-note">Competitive pricing for a professionally chauffeured SUV —
+                                <strong>no surge, fixed rate</strong>.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="vd-extras">
+                    <h3>Available Add-Ons</h3>
+                    <div class="vd-extras-grid">
+                        <div class="vd-extra-item"><i class="ti ti-baby-carriage"></i><span>Infant Car Seat —
+                                +$15</span></div>
+                        <div class="vd-extra-item"><i class="ti ti-baby-carriage"></i><span>Toddler Seat — +$15</span>
+                        </div>
+                        <div class="vd-extra-item"><i class="ti ti-baby-carriage"></i><span>Booster Seat — +$10</span>
+                        </div>
+                        <div class="vd-extra-item"><i class="ti ti-glass-full"></i><span>Champagne — +$45</span></div>
+                    </div>
+                </div>
+
+                <div style="text-align:center;margin-top:3rem;">
+                    <button class="btn btn-primary" onclick="switchPage('booking')"><i class="ti ti-calendar"></i>
+                        Reserve the Chevrolet Tahoe</button>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Escalade Platinum (flagship SUV detail) -->
+    <div class="page vehicle-detail-page" id="page-vehicle-escalade-platinum">
+        <section class="section">
+            <div class="section-inner">
+                <a class="back-link" onclick="switchPage('fleet')"><i class="ti ti-arrow-left"></i> Back to Fleet</a>
+                <div class="vd-hero">
+                    <div class="vd-hero-content">
+                        <span class="section-label">Luxury SUV · Top Tier</span>
+                        <h1>Cadillac Escalade Platinum Luxury</h1>
+                        <p class="vd-subtitle">The apex of American luxury — where 55 inches of curved OLED display,
+                            massaging captain's chairs, and a refrigerated console redefine what an SUV can be.</p>
+                        <div class="vd-quick-stats">
+                            <div class="vd-stat"><i class="ti ti-users"></i> 1–7 Passengers</div>
+                            <div class="vd-stat"><i class="ti ti-briefcase"></i> 4 Large + 4 Carry-On</div>
+                            <div class="vd-stat"><i class="ti ti-gauge"></i> Flagship Category</div>
+                        </div>
+                    </div>
+                    <div class="vd-hero-visual">
+                        <div class="vd-visual-placeholder"><i class="ti ti-car-suv"></i></div>
+                    </div>
+                </div>
+
+                <div class="vd-layout">
+                    <div class="vd-main">
+                        <h3>About This Vehicle</h3>
+                        <p>The Escalade Platinum Luxury represents the pinnacle of the most iconic full-size luxury SUV
+                            in America. Opus full-grain leather covers every seating surface. The 36-speaker AKG Studio
+                            Reference system creates a concert-hall soundstage. The 55-inch total OLED curved display
+                            redefines the digital cockpit. And the Executive Second Row — with massaging, heated,
+                            ventilated, and reclining captain's chairs — ensures every passenger travels first-class.
+                        </p>
+                        <p>When your group demands the absolute best in American luxury transportation, this is the
+                            vehicle that answers.</p>
+
+                        <h3>Key Features</h3>
+                        <ul class="vd-features-list">
+                            <li><i class="ti ti-check"></i> Opus full-grain leather throughout — semi-aniline finish
+                            </li>
+                            <li><i class="ti ti-check"></i> Executive second row: massaging, heated, ventilated,
+                                reclining captain's chairs</li>
+                            <li><i class="ti ti-check"></i> Rear-seat entertainment with dual 12.6" displays</li>
+                            <li><i class="ti ti-check"></i> 55" total OLED curved display dashboard</li>
+                            <li><i class="ti ti-check"></i> AKG Studio Reference 36-speaker audio system</li>
+                            <li><i class="ti ti-check"></i> Refrigerated center console with premium glassware</li>
+                            <li><i class="ti ti-check"></i> Night Vision thermal imaging</li>
+                            <li><i class="ti ti-check"></i> Augmented Reality navigation</li>
+                            <li><i class="ti ti-check"></i> Super Cruise hands-free driving technology</li>
+                        </ul>
+
+                        <h3>Best For</h3>
+                        <div class="vd-tags">
+                            <span class="vd-tag">Executive Delegations</span>
+                            <span class="vd-tag">VIP Airport Arrivals</span>
+                            <span class="vd-tag">Corporate Roadshows</span>
+                            <span class="vd-tag">Red Carpet Events</span>
+                            <span class="vd-tag">Celebrity Transport</span>
+                        </div>
+                    </div>
+                    <div class="vd-sidebar">
+                        <div class="vd-pricing-card">
+                            <h4>Pricing</h4>
+                            <div class="vd-price-row"><span>Per Mile</span><strong>$6.50</strong></div>
+                            <div class="vd-price-row"><span>Airport Transfer (from)</span><strong>$140</strong></div>
+                            <div class="vd-price-row"><span>Per Hour</span><strong>$155</strong></div>
+                            <div class="vd-price-row"><span>Meet & Greet</span><strong>+$30</strong></div>
+                            <button class="btn btn-primary" style="width:100%;margin-top:1rem;"
+                                onclick="switchPage('booking')">Reserve This Vehicle</button>
+                        </div>
+                        <div class="vd-market-compare">
+                            <h4>Market Comparison</h4>
+                            <div class="compare-bar">
+                                <div class="compare-label">La Tía Escalade Platinum</div>
+                                <div class="compare-track">
+                                    <div class="compare-fill" style="width:76%">$6.50/mi</div>
+                                </div>
+                            </div>
+                            <div class="compare-bar">
+                                <div class="compare-label">Uber Black SUV</div>
+                                <div class="compare-track">
+                                    <div class="compare-fill other" style="width:55%">$4.75/mi</div>
+                                </div>
+                            </div>
+                            <div class="compare-bar">
+                                <div class="compare-label">Blacklane First Class</div>
+                                <div class="compare-track">
+                                    <div class="compare-fill other" style="width:94%">$8.00/mi</div>
+                                </div>
+                            </div>
+                            <div class="compare-bar">
+                                <div class="compare-label">Local Limo Operator</div>
+                                <div class="compare-track">
+                                    <div class="compare-fill other" style="width:88%">$7.50/mi</div>
+                                </div>
+                            </div>
+                            <p class="compare-note">Our Platinum Escalade is priced <strong>below limousine
+                                    operators</strong> with a superior vehicle and consistent service standard.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="vd-extras">
+                    <h3>Available Add-Ons</h3>
+                    <div class="vd-extras-grid">
+                        <div class="vd-extra-item"><i class="ti ti-baby-carriage"></i><span>Infant Car Seat —
+                                +$15</span></div>
+                        <div class="vd-extra-item"><i class="ti ti-baby-carriage"></i><span>Toddler Seat — +$15</span>
+                        </div>
+                        <div class="vd-extra-item"><i class="ti ti-glass-full"></i><span>Champagne Service — +$45</span>
+                        </div>
+                        <div class="vd-extra-item"><i class="ti ti-flower"></i><span>Floral Arrangement — +$65</span>
+                        </div>
+                        <div class="vd-extra-item"><i class="ti ti-shield"></i><span>Security Driver — Quote</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="text-align:center;margin-top:3rem;">
+                    <button class="btn btn-primary" onclick="switchPage('booking')"><i class="ti ti-calendar"></i>
+                        Reserve the Escalade Platinum</button>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Sprinter Limo -->
+    <div class="page vehicle-detail-page" id="page-vehicle-sprinter-limo">
+        <section class="section">
+            <div class="section-inner">
+                <a class="back-link" onclick="switchPage('fleet')"><i class="ti ti-arrow-left"></i> Back to Fleet</a>
+                <div class="vd-hero">
+                    <div class="vd-hero-content">
+                        <span class="section-label">VIP Sprinter Limousine</span>
+                        <h1>Mercedes-Benz Sprinter Limo</h1>
+                        <p class="vd-subtitle">A nightclub on wheels — fiber-optic starlight ceiling, wraparound leather
+                            lounge, 42" HDTV, and a built-in bar. This is group travel as entertainment.</p>
+                        <div class="vd-quick-stats">
+                            <div class="vd-stat"><i class="ti ti-users"></i> Up to 14 Passengers</div>
+                            <div class="vd-stat"><i class="ti ti-briefcase"></i> 10 Large + 10 Carry-On</div>
+                            <div class="vd-stat"><i class="ti ti-gauge"></i> Ultra Premium Category</div>
+                        </div>
+                    </div>
+                    <div class="vd-hero-visual">
+                        <div class="vd-visual-placeholder"><i class="ti ti-bus"></i></div>
+                    </div>
+                </div>
+
+                <div class="vd-layout">
+                    <div class="vd-main">
+                        <h3>About This Vehicle</h3>
+                        <p>The Sprinter Limousine transforms group travel into a collective luxury experience. Step up
+                            into a cabin that rivals the finest VIP lounges — wraparound leather seating faces a central
+                            entertainment hub with a 42" HDTV and Apple TV. The fiber-optic starlight ceiling sets the
+                            ambiance while the built-in bar with glassware and coolers keeps the celebration going.</p>
+                        <p>Perfect for bachelor and bachelorette parties, concert groups, corporate team outings, wine
+                            tours, and any occasion where the journey should be as memorable as the destination.</p>
+
+                        <h3>Key Features</h3>
+                        <ul class="vd-features-list">
+                            <li><i class="ti ti-check"></i> Full wraparound leather lounge seating — face-to-face
+                                configuration</li>
+                            <li><i class="ti ti-check"></i> Fiber-optic starlight ceiling with twinkling effect</li>
+                            <li><i class="ti ti-check"></i> Premium sound system with subwoofers and multi-zone audio
+                            </li>
+                            <li><i class="ti ti-check"></i> LED mood lighting with 16 million color options</li>
+                            <li><i class="ti ti-check"></i> Built-in bar with premium glassware & coolers</li>
+                            <li><i class="ti ti-check"></i> 42" HDTV screens with Apple TV & streaming</li>
+                            <li><i class="ti ti-check"></i> Privacy partitions & curtains</li>
+                            <li><i class="ti ti-check"></i> Individual climate control vents per row</li>
+                            <li><i class="ti ti-check"></i> Onboard Wi-Fi & 110V power outlets</li>
+                        </ul>
+
+                        <h3>Best For</h3>
+                        <div class="vd-tags">
+                            <span class="vd-tag">Bachelor/Bachelorette Parties</span>
+                            <span class="vd-tag">Concert Groups</span>
+                            <span class="vd-tag">Wine Tours</span>
+                            <span class="vd-tag">Corporate Team Outings</span>
+                            <span class="vd-tag">Wedding Parties</span>
+                        </div>
+                    </div>
+                    <div class="vd-sidebar">
+                        <div class="vd-pricing-card">
+                            <h4>Pricing</h4>
+                            <div class="vd-price-row"><span>Per Mile</span><strong>$7.50</strong></div>
+                            <div class="vd-price-row"><span>Event / Minimum</span><strong>$250</strong></div>
+                            <div class="vd-price-row"><span>Per Hour</span><strong>$180</strong></div>
+                            <div class="vd-price-row"><span>Full Day (8 hrs)</span><strong>$1,200</strong></div>
+                            <button class="btn btn-primary" style="width:100%;margin-top:1rem;"
+                                onclick="switchPage('booking')">Reserve This Vehicle</button>
+                        </div>
+                        <div class="vd-market-compare">
+                            <h4>Market Comparison</h4>
+                            <div class="compare-bar">
+                                <div class="compare-label">La Tía Sprinter Limo</div>
+                                <div class="compare-track">
+                                    <div class="compare-fill" style="width:65%">$7.50/mi</div>
+                                </div>
+                            </div>
+                            <div class="compare-bar">
+                                <div class="compare-label">Party Bus (avg)</div>
+                                <div class="compare-track">
+                                    <div class="compare-fill other" style="width:87%">$10.00/mi</div>
+                                </div>
+                            </div>
+                            <div class="compare-bar">
+                                <div class="compare-label">Limo Operator</div>
+                                <div class="compare-track">
+                                    <div class="compare-fill other" style="width:78%">$9.00/mi</div>
+                                </div>
+                            </div>
+                            <div class="compare-bar">
+                                <div class="compare-label">Uber XL × 3 cars</div>
+                                <div class="compare-track">
+                                    <div class="compare-fill other" style="width:52%">$6.00/mi*</div>
+                                </div>
+                            </div>
+                            <p class="compare-note">*Uber XL rate × 3 cars to match 14-passenger capacity —
+                                <strong>subject to surge</strong>. Our rate is fixed.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="vd-extras">
+                    <h3>Available Add-Ons</h3>
+                    <div class="vd-extras-grid">
+                        <div class="vd-extra-item"><i class="ti ti-glass-full"></i><span>Premium Champagne — +$45</span>
+                        </div>
+                        <div class="vd-extra-item"><i class="ti ti-music"></i><span>Custom Playlist Curation —
+                                Included</span></div>
+                        <div class="vd-extra-item"><i class="ti ti-flower"></i><span>Floral Arrangement — +$65</span>
+                        </div>
+                        <div class="vd-extra-item"><i class="ti ti-camera"></i><span>Photo Package — Quote</span></div>
+                    </div>
+                </div>
+
+                <div style="text-align:center;margin-top:3rem;">
+                    <button class="btn btn-primary" onclick="switchPage('booking')"><i class="ti ti-calendar"></i>
+                        Reserve the Sprinter Limo</button>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Cullinan -->
+    <div class="page vehicle-detail-page" id="page-vehicle-cullinan">
+        <section class="section">
+            <div class="section-inner">
+                <a class="back-link" onclick="switchPage('fleet')"><i class="ti ti-arrow-left"></i> Back to Fleet</a>
+                <div class="vd-hero">
+                    <div class="vd-hero-content">
+                        <span class="section-label">Ultra Luxury SUV</span>
+                        <h1>Rolls-Royce Cullinan</h1>
+                        <p class="vd-subtitle">The world's first and only super-luxury SUV. Fourteen hides of
+                            hand-stitched leather. 1,344 fiber-optic stars above. The Spirit of Ecstasy leading the way.
+                        </p>
+                        <div class="vd-quick-stats">
+                            <div class="vd-stat"><i class="ti ti-users"></i> 1–4 Passengers</div>
+                            <div class="vd-stat"><i class="ti ti-briefcase"></i> 3 Large + 3 Carry-On</div>
+                            <div class="vd-stat"><i class="ti ti-crown"></i> Ultra Luxury Category</div>
+                        </div>
+                    </div>
+                    <div class="vd-hero-visual">
+                        <div class="vd-visual-placeholder"><i class="ti ti-crown"></i></div>
+                    </div>
+                </div>
+
+                <div class="vd-layout">
+                    <div class="vd-main">
+                        <h3>About This Vehicle</h3>
+                        <p>The Rolls-Royce Cullinan is the definitive statement of automotive luxury. Named after the
+                            largest diamond ever discovered, it is the first Rolls-Royce designed for every terrain
+                            while sacrificing none of the marque's legendary refinement. Fourteen individual leather
+                            hides — each from bulls raised at high altitudes to avoid insect bites — are hand-stitched
+                            by a single craftsperson. The Starlight Headliner features 1,344 hand-placed fiber-optic
+                            lights that recreate the night sky.</p>
+                        <p>Rear coach doors (suicide doors) open backward for the most dramatic arrival possible. The
+                            Viewing Suite — deployable tailgate seats — transforms any destination into a private
+                            lounge. This is not transportation. This is an event.</p>
+
+                        <h3>Key Features</h3>
+                        <ul class="vd-features-list">
+                            <li><i class="ti ti-check"></i> 14 hand-stitched leather hides — single craftsperson per
+                                vehicle</li>
+                            <li><i class="ti ti-check"></i> Starlight Headliner with 1,344 hand-placed fiber-optic
+                                lights</li>
+                            <li><i class="ti ti-check"></i> Bespoke Audio: 18-channel, 1,300-watt system</li>
+                            <li><i class="ti ti-check"></i> Lambswool floor mats & umbrellas housed in the doors</li>
+                            <li><i class="ti ti-check"></i> Spirit of Ecstasy hood ornament — retractable</li>
+                            <li><i class="ti ti-check"></i> Rear coach doors (suicide doors) for dramatic arrival</li>
+                            <li><i class="ti ti-check"></i> Viewing Suite: deployable tailgate seats with champagne
+                                table</li>
+                            <li><i class="ti ti-check"></i> 6.75L V12 engine — effortless, silent power</li>
+                        </ul>
+
+                        <h3>Best For</h3>
+                        <div class="vd-tags">
+                            <span class="vd-tag">Wedding Arrivals</span>
+                            <span class="vd-tag">Proposal Nights</span>
+                            <span class="vd-tag">Milestone Celebrations</span>
+                            <span class="vd-tag">Gala Entrances</span>
+                            <span class="vd-tag">VIP Red Carpet</span>
+                        </div>
+                    </div>
+                    <div class="vd-sidebar">
+                        <div class="vd-pricing-card premium">
+                            <h4>Pricing</h4>
+                            <div class="vd-price-row"><span>Per Mile</span><strong>$14.00</strong></div>
+                            <div class="vd-price-row"><span>Minimum Booking</span><strong>$450</strong></div>
+                            <div class="vd-price-row"><span>Per Hour</span><strong>$300</strong></div>
+                            <div class="vd-price-row"><span>Half Day (4 hrs)</span><strong>$1,050</strong></div>
+                            <button class="btn btn-primary" style="width:100%;margin-top:1rem;"
+                                onclick="switchPage('booking')">Inquire for Availability</button>
+                        </div>
+                        <div class="vd-market-compare">
+                            <h4>Market Comparison</h4>
+                            <div class="compare-bar">
+                                <div class="compare-label">La Tía Cullinan</div>
+                                <div class="compare-track">
+                                    <div class="compare-fill" style="width:64%">$14/mi</div>
+                                </div>
+                            </div>
+                            <div class="compare-bar">
+                                <div class="compare-label">Rolls-Royce Rental Agency</div>
+                                <div class="compare-track">
+                                    <div class="compare-fill other" style="width:82%">$18/mi</div>
+                                </div>
+                            </div>
+                            <div class="compare-bar">
+                                <div class="compare-label">Private RR Operator</div>
+                                <div class="compare-track">
+                                    <div class="compare-fill other" style="width:91%">$20/mi</div>
+                                </div>
+                            </div>
+                            <div class="compare-bar">
+                                <div class="compare-label">Exotic Rental (self-drive)</div>
+                                <div class="compare-track">
+                                    <div class="compare-fill other" style="width:55%">$12/mi*</div>
+                                </div>
+                            </div>
+                            <p class="compare-note">*Self-drive excludes chauffeur, insurance, fuel. Our all-inclusive
+                                rate with professional chauffeur is <strong>the best value in South Florida</strong>.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="vd-extras">
+                    <h3>Available Add-Ons</h3>
+                    <div class="vd-extras-grid">
+                        <div class="vd-extra-item"><i class="ti ti-glass-full"></i><span>Moët & Chandon Champagne —
+                                +$85</span></div>
+                        <div class="vd-extra-item"><i class="ti ti-flower"></i><span>Premium Rose Petal Display —
+                                +$55</span></div>
+                        <div class="vd-extra-item"><i class="ti ti-heart"></i><span>Proposal Coordination — Quote</span>
+                        </div>
+                        <div class="vd-extra-item"><i class="ti ti-camera"></i><span>Professional Photography —
+                                Quote</span></div>
+                    </div>
+                </div>
+
+                <div style="text-align:center;margin-top:3rem;">
+                    <button class="btn btn-primary" onclick="switchPage('booking')"><i class="ti ti-calendar"></i>
+                        Inquire About the Cullinan</button>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Phantom -->
+    <div class="page vehicle-detail-page" id="page-vehicle-phantom">
+        <section class="section">
+            <div class="section-inner">
+                <a class="back-link" onclick="switchPage('fleet')"><i class="ti ti-arrow-left"></i> Back to Fleet</a>
+                <div class="vd-hero">
+                    <div class="vd-hero-content">
+                        <span class="section-label">Ultra Luxury Sedan</span>
+                        <h1>Rolls-Royce Phantom</h1>
+                        <p class="vd-subtitle">The most silent car in the world. 130kg of acoustic insulation. A gallery
+                            of art across the dashboard. There is arriving — and then there is this.</p>
+                        <div class="vd-quick-stats">
+                            <div class="vd-stat"><i class="ti ti-users"></i> 1–3 Passengers</div>
+                            <div class="vd-stat"><i class="ti ti-briefcase"></i> 2 Large + 2 Carry-On</div>
+                            <div class="vd-stat"><i class="ti ti-crown"></i> Ultra Luxury Category</div>
+                        </div>
+                    </div>
+                    <div class="vd-hero-visual">
+                        <div class="vd-visual-placeholder"><i class="ti ti-crown"></i></div>
+                    </div>
+                </div>
+
+                <div class="vd-layout">
+                    <div class="vd-main">
+                        <h3>About This Vehicle</h3>
+                        <p>The Rolls-Royce Phantom is the most coveted luxury automobile in existence. It is a cathedral
+                            on wheels — hand-assembled in Goodwood, England, each taking over 60 pairs of hands and 450
+                            hours to complete. The Phantom is famous for being the most silent car in the world, with
+                            130 kilograms of acoustic insulation creating an almost supernatural quiet.</p>
+                        <p>The Gallery — a full-width pane of glass across the dashboard — transforms the interior into
+                            a personal art exhibition. The Starlight Headliner can be customized to depict the night sky
+                            over any location on any date in history. Power-closing rear coach doors seal the world out
+                            with a whisper. When the Phantom arrives, it does not merely pull up — it materializes.</p>
+
+                        <h3>Key Features</h3>
+                        <ul class="vd-features-list">
+                            <li><i class="ti ti-check"></i> 130kg of acoustic insulation — the most silent car in
+                                existence</li>
+                            <li><i class="ti ti-check"></i> The Gallery: full-width glass artwork across the dashboard
+                            </li>
+                            <li><i class="ti ti-check"></i> Starlight Headliner with customizable constellations</li>
+                            <li><i class="ti ti-check"></i> Bespoke Audio: the finest in-car sound system ever created
+                            </li>
+                            <li><i class="ti ti-check"></i> Power-closing rear coach doors — operated from within</li>
+                            <li><i class="ti ti-check"></i> Hand-stitched leather by a single craftsperson — 30 days
+                            </li>
+                            <li><i class="ti ti-check"></i> 6.75L twin-turbo V12 — 563 horsepower of silent thrust</li>
+                            <li><i class="ti ti-check"></i> Magic Carpet Ride: self-leveling air suspension</li>
+                        </ul>
+
+                        <h3>Best For</h3>
+                        <div class="vd-tags">
+                            <span class="vd-tag">Wedding Day Arrival</span>
+                            <span class="vd-tag">Galas & Awards Shows</span>
+                            <span class="vd-tag">Anniversary Celebrations</span>
+                            <span class="vd-tag">Diplomatic Protocol</span>
+                            <span class="vd-tag">The Ultimate Statement</span>
+                        </div>
+                    </div>
+                    <div class="vd-sidebar">
+                        <div class="vd-pricing-card premium">
+                            <h4>Pricing</h4>
+                            <div class="vd-price-row"><span>Per Mile</span><strong>$16.00</strong></div>
+                            <div class="vd-price-row"><span>Minimum Booking</span><strong>$550</strong></div>
+                            <div class="vd-price-row"><span>Per Hour</span><strong>$350</strong></div>
+                            <div class="vd-price-row"><span>Half Day (4 hrs)</span><strong>$1,225</strong></div>
+                            <button class="btn btn-primary" style="width:100%;margin-top:1rem;"
+                                onclick="switchPage('booking')">Inquire for Availability</button>
+                        </div>
+                        <div class="vd-market-compare">
+                            <h4>Market Comparison</h4>
+                            <div class="compare-bar">
+                                <div class="compare-label">La Tía Phantom</div>
+                                <div class="compare-track">
+                                    <div class="compare-fill" style="width:58%">$16/mi</div>
+                                </div>
+                            </div>
+                            <div class="compare-bar">
+                                <div class="compare-label">RR Rental Agency</div>
+                                <div class="compare-track">
+                                    <div class="compare-fill other" style="width:76%">$21/mi</div>
+                                </div>
+                            </div>
+                            <div class="compare-bar">
+                                <div class="compare-label">Private RR Operator</div>
+                                <div class="compare-track">
+                                    <div class="compare-fill other" style="width:87%">$24/mi</div>
+                                </div>
+                            </div>
+                            <div class="compare-bar">
+                                <div class="compare-label">Exotic Rental (self-drive)</div>
+                                <div class="compare-track">
+                                    <div class="compare-fill other" style="width:51%">$14/mi*</div>
+                                </div>
+                            </div>
+                            <p class="compare-note">*Self-drive. Our rate includes <strong>professional chauffeur,
+                                    insurance, fuel, and white-glove concierge service</strong>.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="vd-extras">
+                    <h3>Available Add-Ons</h3>
+                    <div class="vd-extras-grid">
+                        <div class="vd-extra-item"><i class="ti ti-glass-full"></i><span>Dom Pérignon Champagne —
+                                +$120</span></div>
+                        <div class="vd-extra-item"><i class="ti ti-flower"></i><span>Premium Rose Petal Display —
+                                +$55</span></div>
+                        <div class="vd-extra-item"><i class="ti ti-heart"></i><span>Proposal Coordination — Quote</span>
+                        </div>
+                        <div class="vd-extra-item"><i class="ti ti-camera"></i><span>Professional Photography —
+                                Quote</span></div>
+                    </div>
+                </div>
+
+                <div style="text-align:center;margin-top:3rem;">
+                    <button class="btn btn-primary" onclick="switchPage('booking')"><i class="ti ti-calendar"></i>
+                        Inquire About the Phantom</button>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Compact SUV pages (linked from fleet directory) -->
+    <div class="page vehicle-detail-page" id="page-vehicle-suburban6">
+        <section class="section">
+            <div class="section-inner">
+                <a class="back-link" onclick="switchPage('fleet')"><i class="ti ti-arrow-left"></i> Back to Fleet</a>
+                <div class="vd-hero">
+                    <div class="vd-hero-content">
+                        <span class="section-label">Full-Size SUV</span>
+                        <h1>Chevrolet Suburban · 6 Passenger</h1>
+                        <p class="vd-subtitle">Best-in-class legroom, generous cargo capacity, and the composed ride
+                            quality that has made the Suburban an American institution for group travel.</p>
+                        <div class="vd-quick-stats">
+                            <div class="vd-stat"><i class="ti ti-users"></i> 1–6 Passengers</div>
+                            <div class="vd-stat"><i class="ti ti-briefcase"></i> 4 Large + 4 Carry-On</div>
+                            <div class="vd-stat"><i class="ti ti-gauge"></i> Full-Size SUV Category</div>
+                        </div>
+                    </div>
+                    <div class="vd-hero-visual">
+                        <div class="vd-visual-placeholder"><i class="ti ti-car-suv"></i></div>
+                    </div>
+                </div>
+                <div class="vd-layout">
+                    <div class="vd-main">
+                        <h3>About This Vehicle</h3>
+                        <p>The Chevrolet Suburban is legendary for a reason. Best-in-class legroom across all three
+                            rows, quiet cabin engineering, and the cargo capacity to handle full family luggage loads.
+                            In 6-passenger configuration, every occupant enjoys generous personal space — making it the
+                            first choice for airport group transfers and corporate movements where comfort cannot be
+                            compromised.</p>
+                        <h3>Key Features</h3>
+                        <ul class="vd-features-list">
+                            <li><i class="ti ti-check"></i> Best-in-class legroom — all three rows</li>
+                            <li><i class="ti ti-check"></i> Premium audio system</li>
+                            <li><i class="ti ti-check"></i> Tri-zone automatic climate control</li>
+                            <li><i class="ti ti-check"></i> Generous cargo capacity even with full passengers</li>
+                            <li><i class="ti ti-check"></i> Quiet cabin engineering</li>
+                            <li><i class="ti ti-check"></i> Onboard Wi-Fi ready</li>
+                        </ul>
+                        <h3>Best For</h3>
+                        <div class="vd-tags">
+                            <span class="vd-tag">Airport Group Transfers</span>
+                            <span class="vd-tag">Family Travel</span>
+                            <span class="vd-tag">Corporate Movements</span>
+                            <span class="vd-tag">Cruise Port Pickups</span>
+                        </div>
+                    </div>
+                    <div class="vd-sidebar">
+                        <div class="vd-pricing-card">
+                            <h4>Pricing</h4>
+                            <div class="vd-price-row"><span>Per Mile</span><strong>$4.25</strong></div>
+                            <div class="vd-price-row"><span>Airport Transfer (from)</span><strong>$95</strong></div>
+                            <div class="vd-price-row"><span>Per Hour</span><strong>$105</strong></div>
+                            <button class="btn btn-primary" style="width:100%;margin-top:1rem;"
+                                onclick="switchPage('booking')">Reserve This Vehicle</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="page vehicle-detail-page" id="page-vehicle-suburban7">
+        <section class="section">
+            <div class="section-inner">
+                <a class="back-link" onclick="switchPage('fleet')"><i class="ti ti-arrow-left"></i> Back to Fleet</a>
+                <div class="vd-hero">
+                    <div class="vd-hero-content">
+                        <span class="section-label">Full-Size SUV</span>
+                        <h1>Chevrolet Suburban · 7 Passenger</h1>
+                        <p class="vd-subtitle">Maximum passenger flexibility without sacrificing luggage space — the
+                            7-passenger Suburban handles full groups with ease.</p>
+                        <div class="vd-quick-stats">
+                            <div class="vd-stat"><i class="ti ti-users"></i> 1–7 Passengers</div>
+                            <div class="vd-stat"><i class="ti ti-briefcase"></i> 4 Large + 4 Carry-On</div>
+                            <div class="vd-stat"><i class="ti ti-gauge"></i> Full-Size SUV Category</div>
+                        </div>
+                    </div>
+                    <div class="vd-hero-visual">
+                        <div class="vd-visual-placeholder"><i class="ti ti-car-suv"></i></div>
+                    </div>
+                </div>
+                <div class="vd-layout">
+                    <div class="vd-main">
+                        <h3>About This Vehicle</h3>
+                        <p>The 7-passenger Suburban variant maximizes seating flexibility while retaining outstanding
+                            cargo capacity. Ideal for larger family groups, executive delegations, and premium event
+                            transportation where everyone needs to travel together.</p>
+                        <h3>Key Features</h3>
+                        <ul class="vd-features-list">
+                            <li><i class="ti ti-check"></i> Maximum passenger flexibility — 7 seats</li>
+                            <li><i class="ti ti-check"></i> Premium cloth/leather interior</li>
+                            <li><i class="ti ti-check"></i> Tri-zone climate control</li>
+                            <li><i class="ti ti-check"></i> Ideal for group airport runs</li>
+                            <li><i class="ti ti-check"></i> Onboard Wi-Fi ready</li>
+                        </ul>
+                    </div>
+                    <div class="vd-sidebar">
+                        <div class="vd-pricing-card">
+                            <h4>Pricing</h4>
+                            <div class="vd-price-row"><span>Per Mile</span><strong>$4.50</strong></div>
+                            <div class="vd-price-row"><span>Airport Transfer (from)</span><strong>$100</strong></div>
+                            <div class="vd-price-row"><span>Per Hour</span><strong>$110</strong></div>
+                            <button class="btn btn-primary" style="width:100%;margin-top:1rem;"
+                                onclick="switchPage('booking')">Reserve This Vehicle</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="page vehicle-detail-page" id="page-vehicle-escalade6">
+        <section class="section">
+            <div class="section-inner">
+                <a class="back-link" onclick="switchPage('fleet')"><i class="ti ti-arrow-left"></i> Back to Fleet</a>
+                <div class="vd-hero">
+                    <div class="vd-hero-content">
+                        <span class="section-label">Luxury SUV</span>
+                        <h1>Cadillac Escalade · 6 Passenger</h1>
+                        <p class="vd-subtitle">The icon. Semi-aniline leather, 36-speaker AKG audio, and Super Cruise —
+                            6-passenger luxury without compromise.</p>
+                        <div class="vd-quick-stats">
+                            <div class="vd-stat"><i class="ti ti-users"></i> 1–6 Passengers</div>
+                            <div class="vd-stat"><i class="ti ti-briefcase"></i> 4 Large + 4 Carry-On</div>
+                            <div class="vd-stat"><i class="ti ti-gauge"></i> Luxury SUV Category</div>
+                        </div>
+                    </div>
+                    <div class="vd-hero-visual">
+                        <div class="vd-visual-placeholder"><i class="ti ti-car-suv"></i></div>
+                    </div>
+                </div>
+                <div class="vd-layout">
+                    <div class="vd-main">
+                        <h3>About This Vehicle</h3>
+                        <p>The Escalade's iconic silhouette announces authority before the door opens. The 6-passenger
+                            configuration offers spacious second-row captain's chairs with a center console — perfect
+                            for executives who value personal space. The 55-inch total OLED display, 36-speaker AKG
+                            Studio Reference audio, and available Super Cruise hands-free driving set the technological
+                            benchmark for the segment.</p>
+                        <h3>Key Features</h3>
+                        <ul class="vd-features-list">
+                            <li><i class="ti ti-check"></i> Semi-aniline leather, massaging front seats</li>
+                            <li><i class="ti ti-check"></i> AKG Studio Reference 36-speaker audio system</li>
+                            <li><i class="ti ti-check"></i> OLED curved display — 55" total diagonal</li>
+                            <li><i class="ti ti-check"></i> Super Cruise hands-free driving</li>
+                            <li><i class="ti ti-check"></i> Night Vision thermal imaging</li>
+                        </ul>
+                    </div>
+                    <div class="vd-sidebar">
+                        <div class="vd-pricing-card">
+                            <h4>Pricing</h4>
+                            <div class="vd-price-row"><span>Per Mile</span><strong>$5.25</strong></div>
+                            <div class="vd-price-row"><span>Airport Transfer (from)</span><strong>$115</strong></div>
+                            <div class="vd-price-row"><span>Per Hour</span><strong>$125</strong></div>
+                            <button class="btn btn-primary" style="width:100%;margin-top:1rem;"
+                                onclick="switchPage('booking')">Reserve This Vehicle</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="page vehicle-detail-page" id="page-vehicle-escalade7">
+        <section class="section">
+            <div class="section-inner">
+                <a class="back-link" onclick="switchPage('fleet')"><i class="ti ti-arrow-left"></i> Back to Fleet</a>
+                <div class="vd-hero">
+                    <div class="vd-hero-content">
+                        <span class="section-label">Luxury SUV</span>
+                        <h1>Cadillac Escalade · 7 Passenger</h1>
+                        <p class="vd-subtitle">Extended wheelbase for genuine third-row comfort — the Escalade that
+                            carries larger parties without a hint of compromise.</p>
+                        <div class="vd-quick-stats">
+                            <div class="vd-stat"><i class="ti ti-users"></i> 1–7 Passengers</div>
+                            <div class="vd-stat"><i class="ti ti-briefcase"></i> 4 Large + 4 Carry-On</div>
+                            <div class="vd-stat"><i class="ti ti-gauge"></i> Luxury SUV Category</div>
+                        </div>
+                    </div>
+                    <div class="vd-hero-visual">
+                        <div class="vd-visual-placeholder"><i class="ti ti-car-suv"></i></div>
+                    </div>
+                </div>
+                <div class="vd-layout">
+                    <div class="vd-main">
+                        <h3>About This Vehicle</h3>
+                        <p>The 7-passenger Escalade with extended wheelbase provides genuine third-row comfort that
+                            adults can appreciate. The AKG Studio Reference audio, OLED curved display dashboard, and
+                            power-folding third row make this the definitive large-group luxury SUV in our fleet.</p>
+                        <h3>Key Features</h3>
+                        <ul class="vd-features-list">
+                            <li><i class="ti ti-check"></i> Extended wheelbase for third-row comfort</li>
+                            <li><i class="ti ti-check"></i> AKG Studio Reference audio system</li>
+                            <li><i class="ti ti-check"></i> OLED curved display dashboard</li>
+                            <li><i class="ti ti-check"></i> Power-folding third row</li>
+                            <li><i class="ti ti-check"></i> Augmented Reality navigation</li>
+                        </ul>
+                    </div>
+                    <div class="vd-sidebar">
+                        <div class="vd-pricing-card">
+                            <h4>Pricing</h4>
+                            <div class="vd-price-row"><span>Per Mile</span><strong>$5.50</strong></div>
+                            <div class="vd-price-row"><span>Airport Transfer (from)</span><strong>$120</strong></div>
+                            <div class="vd-price-row"><span>Per Hour</span><strong>$130</strong></div>
+                            <button class="btn btn-primary" style="width:100%;margin-top:1rem;"
+                                onclick="switchPage('booking')">Reserve This Vehicle</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="page vehicle-detail-page" id="page-vehicle-escalade-sport">
+        <section class="section">
+            <div class="section-inner">
+                <a class="back-link" onclick="switchPage('fleet')"><i class="ti ti-arrow-left"></i> Back to Fleet</a>
+                <div class="vd-hero">
+                    <div class="vd-hero-content">
+                        <span class="section-label">Luxury SUV</span>
+                        <h1>Cadillac Escalade Sport Luxury</h1>
+                        <p class="vd-subtitle">The darkened edge of the Escalade lineup — black chrome, sport-tuned
+                            suspension, and a performance exhaust that announces intent.</p>
+                        <div class="vd-quick-stats">
+                            <div class="vd-stat"><i class="ti ti-users"></i> 1–6 Passengers</div>
+                            <div class="vd-stat"><i class="ti ti-briefcase"></i> 4 Large + 4 Carry-On</div>
+                            <div class="vd-stat"><i class="ti ti-gauge"></i> Luxury SUV Category</div>
+                        </div>
+                    </div>
+                    <div class="vd-hero-visual">
+                        <div class="vd-visual-placeholder"><i class="ti ti-car-suv"></i></div>
+                    </div>
+                </div>
+                <div class="vd-layout">
+                    <div class="vd-main">
+                        <h3>About This Vehicle</h3>
+                        <p>The Sport Luxury edition adds a distinctly powerful edge — bold and confident, designed for
+                            those who move differently. Black chrome exterior accents, sport-tuned suspension, and a
+                            performance exhaust system transform the Escalade's presence from commanding to formidable.
+                        </p>
+                        <h3>Key Features</h3>
+                        <ul class="vd-features-list">
+                            <li><i class="ti ti-check"></i> Sport-tuned suspension & black chrome exterior</li>
+                            <li><i class="ti ti-check"></i> Full-grain leather with contrast stitching</li>
+                            <li><i class="ti ti-check"></i> AKG Studio Reference 36-speaker system</li>
+                            <li><i class="ti ti-check"></i> Performance exhaust & V8 power</li>
+                            <li><i class="ti ti-check"></i> Panoramic fixed-glass roof</li>
+                        </ul>
+                    </div>
+                    <div class="vd-sidebar">
+                        <div class="vd-pricing-card">
+                            <h4>Pricing</h4>
+                            <div class="vd-price-row"><span>Per Mile</span><strong>$5.75</strong></div>
+                            <div class="vd-price-row"><span>Airport Transfer (from)</span><strong>$130</strong></div>
+                            <div class="vd-price-row"><span>Per Hour</span><strong>$140</strong></div>
+                            <button class="btn btn-primary" style="width:100%;margin-top:1rem;"
+                                onclick="switchPage('booking')">Reserve This Vehicle</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="page vehicle-detail-page" id="page-vehicle-sprinter">
+        <section class="section">
+            <div class="section-inner">
+                <a class="back-link" onclick="switchPage('fleet')"><i class="ti ti-arrow-left"></i> Back to Fleet</a>
+                <div class="vd-hero">
+                    <div class="vd-hero-content">
+                        <span class="section-label">Executive Sprinter Van</span>
+                        <h1>Mercedes-Benz Sprinter · Executive</h1>
+                        <p class="vd-subtitle">High-roof configuration, premium captain's chairs, and space for up to 14
+                            — this is group transport done properly.</p>
+                        <div class="vd-quick-stats">
+                            <div class="vd-stat"><i class="ti ti-users"></i> Up to 14 Passengers</div>
+                            <div class="vd-stat"><i class="ti ti-briefcase"></i> 12 Large + 12 Carry-On</div>
+                            <div class="vd-stat"><i class="ti ti-gauge"></i> Executive Van Category</div>
+                        </div>
+                    </div>
+                    <div class="vd-hero-visual">
+                        <div class="vd-visual-placeholder"><i class="ti ti-bus"></i></div>
+                    </div>
+                </div>
+                <div class="vd-layout">
+                    <div class="vd-main">
+                        <h3>About This Vehicle</h3>
+                        <p>The executive Sprinter combines generous capacity with elevated comfort. The high-roof
+                            configuration allows stand-up entry, while premium captain's chairs with armrests ensure
+                            every passenger travels comfortably. Individual climate vents per row, onboard Wi-Fi, and
+                            110V power outlets make it ideal for corporate retreats, cruise port pickups, and concert
+                            transfers.</p>
+                        <h3>Key Features</h3>
+                        <ul class="vd-features-list">
+                            <li><i class="ti ti-check"></i> High-roof configuration for stand-up entry</li>
+                            <li><i class="ti ti-check"></i> Premium captain's chairs with armrests</li>
+                            <li><i class="ti ti-check"></i> Individual climate vents per row</li>
+                            <li><i class="ti ti-check"></i> Onboard Wi-Fi & 110V power outlets</li>
+                            <li><i class="ti ti-check"></i> Privacy-tinted windows</li>
+                        </ul>
+                    </div>
+                    <div class="vd-sidebar">
+                        <div class="vd-pricing-card">
+                            <h4>Pricing</h4>
+                            <div class="vd-price-row"><span>Per Mile</span><strong>$5.50</strong></div>
+                            <div class="vd-price-row"><span>Airport Transfer (from)</span><strong>$160</strong></div>
+                            <div class="vd-price-row"><span>Per Hour</span><strong>$130</strong></div>
+                            <button class="btn btn-primary" style="width:100%;margin-top:1rem;"
+                                onclick="switchPage('booking')">Reserve This Vehicle</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- ════════════════ SERVICES PAGE ════════════════ -->
+    <div class="page" id="page-services">
+        <section class="section">
+            <div class="section-inner">
+                <div class="section-header">
+                    <span class="section-label">Our Services</span>
+                    <h2>Every journey, handled.</h2>
+                    <p>From the moment you land to the second you step out at the red carpet — our service portfolio
+                        covers every transportation need across South Florida.</p>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <img class="service-image" src="/images/service-airport.svg" alt="Airport Transfers"
+                            loading="lazy" onerror="this.style.display='none'">
+                        <div class="svc-icon"><i class="ti ti-plane-arrival"></i></div>
+                        <h3>Airport Transfers</h3>
+                        <p>Seamless pickup and drop-off at Miami International (MIA), Fort Lauderdale-Hollywood (FLL),
+                            and Palm Beach International (PBI). Flight tracking included — we adjust to delays at no
+                            extra cost.</p>
+                        <div class="svc-details">
+                            <div class="svc-detail"><i class="ti ti-map-pin"></i> MIA · FLL · PBI</div>
+                            <div class="svc-detail"><i class="ti ti-radar"></i> Flight Tracking Included</div>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <img class="service-image" src="/images/service-cruise.svg" alt="Cruise Port Pickup"
+                            loading="lazy" onerror="this.style.display='none'">
+                        <div class="svc-icon"><i class="ti ti-ship"></i></div>
+                        <h3>Cruise Port Pickup</h3>
+                        <p>Private transfers from PortMiami and Port Everglades cruise terminals. Your chauffeur meets
+                            you at the gangway with a name sign — no waiting in taxi queues after a long voyage.</p>
+                        <div class="svc-details">
+                            <div class="svc-detail"><i class="ti ti-map-pin"></i> PortMiami · Port Everglades</div>
+                            <div class="svc-detail"><i class="ti ti-id"></i> Name Sign Meet & Greet</div>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <img class="service-image" src="/images/service-corporate.svg" alt="Corporate Travel"
+                            loading="lazy" onerror="this.style.display='none'">
+                        <div class="svc-icon"><i class="ti ti-building"></i></div>
+                        <h3>Corporate Executive Travel</h3>
+                        <p>Roadshows, board meetings, client airport runs, and daily executive commuting. Direct
+                            billing, NDAs available, and dedicated account management for recurring corporate accounts.
+                        </p>
+                        <div class="svc-details">
+                            <div class="svc-detail"><i class="ti ti-file-invoice"></i> Direct Billing</div>
+                            <div class="svc-detail"><i class="ti ti-shield-lock"></i> NDAs Available</div>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <img class="service-image" src="/images/service-events.svg" alt="Event Transport" loading="lazy"
+                            onerror="this.style.display='none'">
+                        <div class="svc-icon"><i class="ti ti-music"></i></div>
+                        <h3>Concerts, Tours & Event Transport</h3>
+                        <p>Private car service for Hard Rock Stadium, Kaseya Center, Formula 1 Miami Grand Prix, Art
+                            Basel, Miami Music Week, and every major South Florida event. Skip parking, skip rideshare
+                            surges.</p>
+                        <div class="svc-details">
+                            <div class="svc-detail"><i class="ti ti-map-pin"></i> Hard Rock · Kaseya Center</div>
+                            <div class="svc-detail"><i class="ti ti-calendar-event"></i> All Major Events</div>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <img class="service-image" src="/images/service-hourly.svg" alt="Hourly Charter" loading="lazy"
+                            onerror="this.style.display='none'">
+                        <div class="svc-icon"><i class="ti ti-clock"></i></div>
+                        <h3>Hourly Charter</h3>
+                        <p>Book by the hour for multi-stop itineraries, shopping runs, dinner & show evenings, or when
+                            you need a car and driver at your disposal. Two-hour minimum. Extend anytime.</p>
+                        <div class="svc-details">
+                            <div class="svc-detail"><i class="ti ti-hourglass"></i> 2-Hour Minimum</div>
+                            <div class="svc-detail"><i class="ti ti-arrows-move"></i> Multi-Stop Flexibility</div>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <img class="service-image" src="/images/service-rollsroyce.svg" alt="Rolls-Royce Experience"
+                            loading="lazy" onerror="this.style.display='none'">
+                        <div class="svc-icon"><i class="ti ti-crown"></i></div>
+                        <h3>Rolls-Royce Experience</h3>
+                        <p>Wedding arrivals, gala entrances, proposal nights, milestone celebrations, and VIP red carpet
+                            service. Our Rolls-Royce Cullinan and Phantom are available by reservation with white-glove
+                            concierge coordination.</p>
+                        <div class="svc-details">
+                            <div class="svc-detail"><i class="ti ti-heart"></i> Weddings & Proposals</div>
+                            <div class="svc-detail"><i class="ti ti-star"></i> By Reservation Only</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- ════════════════ PRICING PAGE ════════════════ -->
+    <div class="page" id="page-pricing">
+        <section class="section">
+            <div class="section-inner">
+                <div class="section-header">
+                    <span class="section-label">Pricing</span>
+                    <h2>Straightforward. No surprises.</h2>
+                    <p>Every rate is published and fixed. No surge pricing. No algorithm. Just fair, transparent pricing
+                        benchmarked competitively across South Florida.</p>
+                </div>
+
+                <h3 class="pricing-section-title">Sedan Category</h3>
+                <div style="overflow-x:auto;">
+                    <table class="pricing-table">
+                        <thead>
+                            <tr>
+                                <th>Vehicle</th>
+                                <th>Per Mile</th>
+                                <th>Airport (from)</th>
+                                <th>Per Hour</th>
+                                <th>Pax</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="vehicle-col">Cadillac CT5 · 350T</td>
+                                <td class="price-val">$3.50</td>
+                                <td>$75</td>
+                                <td>$90</td>
+                                <td>1–3</td>
+                            </tr>
+                            <tr>
+                                <td class="vehicle-col">Mercedes-Benz S 580</td>
+                                <td class="price-val">$4.50</td>
+                                <td>$95</td>
+                                <td>$115</td>
+                                <td>1–3</td>
+                            </tr>
+                            <tr>
+                                <td class="vehicle-col">Chevrolet Tahoe</td>
+                                <td class="price-val">$3.75</td>
+                                <td>$85</td>
+                                <td>$95</td>
+                                <td>1–5</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <h3 class="pricing-section-title">SUV Category</h3>
+                <div style="overflow-x:auto;">
+                    <table class="pricing-table">
+                        <thead>
+                            <tr>
+                                <th>Vehicle</th>
+                                <th>Per Mile</th>
+                                <th>Airport (from)</th>
+                                <th>Per Hour</th>
+                                <th>Pax</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="vehicle-col">Chevrolet Suburban · 6 Pax</td>
+                                <td class="price-val">$4.25</td>
+                                <td>$95</td>
+                                <td>$105</td>
+                                <td>1–6</td>
+                            </tr>
+                            <tr>
+                                <td class="vehicle-col">Chevrolet Suburban · 7 Pax</td>
+                                <td class="price-val">$4.50</td>
+                                <td>$100</td>
+                                <td>$110</td>
+                                <td>1–7</td>
+                            </tr>
+                            <tr>
+                                <td class="vehicle-col">Cadillac Escalade · 6 Pax</td>
+                                <td class="price-val">$5.25</td>
+                                <td>$115</td>
+                                <td>$125</td>
+                                <td>1–6</td>
+                            </tr>
+                            <tr>
+                                <td class="vehicle-col">Cadillac Escalade · 7 Pax</td>
+                                <td class="price-val">$5.50</td>
+                                <td>$120</td>
+                                <td>$130</td>
+                                <td>1–7</td>
+                            </tr>
+                            <tr>
+                                <td class="vehicle-col">Cadillac Escalade Sport</td>
+                                <td class="price-val">$5.75</td>
+                                <td>$130</td>
+                                <td>$140</td>
+                                <td>1–6</td>
+                            </tr>
+                            <tr>
+                                <td class="vehicle-col">Cadillac Escalade Platinum</td>
+                                <td class="price-val">$6.50</td>
+                                <td>$140</td>
+                                <td>$155</td>
+                                <td>1–7</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <h3 class="pricing-section-title">Sprinter Van</h3>
+                <div style="overflow-x:auto;">
+                    <table class="pricing-table">
+                        <thead>
+                            <tr>
+                                <th>Vehicle</th>
+                                <th>Per Mile</th>
+                                <th>Airport (from)</th>
+                                <th>Per Hour</th>
+                                <th>Pax</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="vehicle-col">Sprinter · Executive</td>
+                                <td class="price-val">$5.50</td>
+                                <td>$160</td>
+                                <td>$130</td>
+                                <td>Up to 14</td>
+                            </tr>
+                            <tr>
+                                <td class="vehicle-col">Sprinter · Limo</td>
+                                <td class="price-val">$7.50</td>
+                                <td>$250 (event)</td>
+                                <td>$180</td>
+                                <td>Up to 14</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <h3 class="pricing-section-title">Ultra Luxury</h3>
+                <div style="overflow-x:auto;">
+                    <table class="pricing-table">
+                        <thead>
+                            <tr>
+                                <th>Vehicle</th>
+                                <th>Per Mile</th>
+                                <th>Min Booking</th>
+                                <th>Per Hour</th>
+                                <th>Pax</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="vehicle-col">Rolls-Royce Cullinan</td>
+                                <td class="price-val">$14.00</td>
+                                <td>$450</td>
+                                <td>$300</td>
+                                <td>1–4</td>
+                            </tr>
+                            <tr>
+                                <td class="vehicle-col">Rolls-Royce Phantom</td>
+                                <td class="price-val">$16.00</td>
+                                <td>$550</td>
+                                <td>$350</td>
+                                <td>1–3</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Market Comparison Section -->
+                <div class="market-comparison-section">
+                    <h3 class="pricing-section-title">How We Compare to the Market</h3>
+                    <p style="color:var(--text-secondary);margin-bottom:2rem;font-size:0.9rem;">Our rates are
+                        benchmarked against the South Florida premium transportation market. Below is a transparent
+                        comparison for a typical 25-mile airport transfer with a luxury sedan.</p>
+                    <div class="market-compare-grid">
+                        <div class="market-option">
+                            <div class="mo-header"><i class="ti ti-car"></i> La Tía CT5</div>
+                            <div class="mo-price">$87.50</div>
+                            <div class="mo-features">
+                                <span><i class="ti ti-check"></i> Fixed rate — no surge</span>
+                                <span><i class="ti ti-check"></i> Flight tracking included</span>
+                                <span><i class="ti ti-check"></i> Professional chauffeur</span>
+                                <span><i class="ti ti-check"></i> Meet & Greet available</span>
+                            </div>
+                            <div class="mo-badge gold">Best Value</div>
+                        </div>
+                        <div class="market-option">
+                            <div class="mo-header"><i class="ti ti-brand-uber"></i> Uber Black</div>
+                            <div class="mo-price">$70–$110<small>*</small></div>
+                            <div class="mo-features">
+                                <span><i class="ti ti-alert-triangle"></i> Surge pricing applies</span>
+                                <span><i class="ti ti-x"></i> No flight tracking</span>
+                                <span><i class="ti ti-check"></i> Driver quality varies</span>
+                                <span><i class="ti ti-x"></i> No Meet & Greet</span>
+                            </div>
+                            <div class="mo-badge muted">Rideshare</div>
+                        </div>
+                        <div class="market-option">
+                            <div class="mo-header"><i class="ti ti-world"></i> Blacklane</div>
+                            <div class="mo-price">$112.50</div>
+                            <div class="mo-features">
+                                <span><i class="ti ti-check"></i> Fixed rate</span>
+                                <span><i class="ti ti-check"></i> Flight tracking included</span>
+                                <span><i class="ti ti-check"></i> Professional chauffeur</span>
+                                <span><i class="ti ti-check"></i> Meet & Greet standard</span>
+                            </div>
+                            <div class="mo-badge muted">Global Platform</div>
+                        </div>
+                        <div class="market-option">
+                            <div class="mo-header"><i class="ti ti-building"></i> Local Limo Operator</div>
+                            <div class="mo-price">$100–$140</div>
+                            <div class="mo-features">
+                                <span><i class="ti ti-check"></i> Usually fixed rate</span>
+                                <span><i class="ti ti-check"></i> Flight tracking varies</span>
+                                <span><i class="ti ti-check"></i> Professional chauffeur</span>
+                                <span><i class="ti ti-question-mark"></i> Consistency varies</span>
+                            </div>
+                            <div class="mo-badge muted">Independent Operator</div>
+                        </div>
+                    </div>
+                    <p class="pricing-note" style="margin-top:2rem;">
+                        <strong>Why our pricing is different:</strong> We eliminate the algorithm. Our rates are
+                        published, fixed, and never surge — regardless of demand, weather, or time of day. When you book
+                        with La Tía de la USA, the price you see is the price you pay. Every time. <strong>No surge
+                            pricing. Ever.</strong>
+                    </p>
+                </div>
+
+                <div class="pricing-highlight">
+                    <h3><i class="ti ti-plane-arrival"></i> Airport Pickup Policy</h3>
+                    <div class="ph-grid">
+                        <div class="ph-item">
+                            <div class="ph-price">Free</div>
+                            <div class="ph-label">Curbside Pickup</div>
+                            <div class="ph-desc">Your chauffeur meets you on the arrivals curb. No additional fee.
+                                Standard for most bookings.</div>
+                        </div>
+                        <div class="ph-item premium">
+                            <div class="ph-price">+$30</div>
+                            <div class="ph-label">Meet & Greet</div>
+                            <div class="ph-desc">Your chauffeur meets you inside at baggage claim with a personalized
+                                name sign. Recommended for first-time visitors, VIPs, and groups.</div>
+                        </div>
+                    </div>
+                    <p style="font-size:0.8rem;color:var(--text-muted);margin-top:1rem;">Airports served: MIA (Miami
+                        International), FLL (Fort Lauderdale-Hollywood), PBI (Palm Beach International) &middot; Ports:
+                        PortMiami, Port Everglades</p>
+                </div>
+
+                <div class="pricing-note">
+                    <strong>Market Context:</strong> Our rates are benchmarked against Uber Black (~$2.80–3.20/mi),
+                    Blacklane (~$4.50–5.00/mi sedan in Miami), and the local South Florida black car market ($90–$115/hr
+                    sedan, $115–$145/hr SUV). We position above rideshare, below Rolls-Royce-only operators — the best
+                    independent luxury fleet in South Florida. <strong>No surge pricing. Ever.</strong>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- ════════════════ BOOKING PAGE ════════════════ -->
+    <div class="page" id="page-booking">
+        <section class="section">
+            <div class="section-inner">
+                <div class="section-header">
+                    <span class="section-label">Book Your Ride</span>
+                    <h2>Reserve with confidence.</h2>
+                    <p>Select your vehicle, service type, and add-ons. An estimated price will be calculated in real
+                        time. We will confirm availability and final pricing within 30 minutes.</p>
+                </div>
+                <div class="booking-layout">
+                    <div class="booking-form" id="bookingForm">
+                        <div class="form-group">
+                            <label for="vehicleSelect">Vehicle</label>
+                            <select id="vehicleSelect" onchange="updatePriceEstimate()">
+                                <optgroup label="Sedan">
+                                    <option value="ct5">Cadillac CT5 · 350T — $3.50/mi</option>
+                                    <option value="s580">Mercedes-Benz S 580 — $4.50/mi</option>
+                                    <option value="tahoe">Chevrolet Tahoe — $3.75/mi</option>
+                                </optgroup>
+                                <optgroup label="SUV">
+                                    <option value="suburban6">Chevrolet Suburban 6 Pax — $4.25/mi</option>
+                                    <option value="suburban7">Chevrolet Suburban 7 Pax — $4.50/mi</option>
+                                    <option value="escalade6">Cadillac Escalade 6 Pax — $5.25/mi</option>
+                                    <option value="escalade7">Cadillac Escalade 7 Pax — $5.50/mi</option>
+                                    <option value="escalade-sport">Cadillac Escalade Sport Luxury — $5.75/mi</option>
+                                    <option value="escalade-platinum">Cadillac Escalade Platinum Lux — $6.50/mi</option>
+                                </optgroup>
+                                <optgroup label="Sprinter Van">
+                                    <option value="sprinter">Sprinter Executive (14 Pax) — $5.50/mi</option>
+                                    <option value="sprinter-limo">Sprinter Limo (14 Pax) — $7.50/mi</option>
+                                </optgroup>
+                                <optgroup label="Ultra Luxury">
+                                    <option value="cullinan">Rolls-Royce Cullinan — $14.00/mi</option>
+                                    <option value="phantom">Rolls-Royce Phantom — $16.00/mi</option>
+                                </optgroup>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Service Type</label>
+                            <div class="service-toggle-group" id="serviceToggleGroup">
+                                <button class="service-toggle active" data-svc="airport"
+                                    onclick="selectServiceType('airport', this)">Airport Transfer</button>
+                                <button class="service-toggle" data-svc="meetgreet"
+                                    onclick="selectServiceType('meetgreet', this)">Meet & Greet</button>
+                                <button class="service-toggle" data-svc="hourly"
+                                    onclick="selectServiceType('hourly', this)">Hourly Charter</button>
+                                <button class="service-toggle" data-svc="point"
+                                    onclick="selectServiceType('point', this)">Point-to-Point</button>
+                            </div>
+                        </div>
+
+                        <div class="form-row" id="tripFields">
+                            <div class="form-group">
+                                <label for="pickupLoc">Pickup Location</label>
+                                <input type="text" id="pickupLoc" placeholder="Airport, address, or venue">
+                            </div>
+                            <div class="form-group">
+                                <label for="dropoffLoc">Destination</label>
+                                <input type="text" id="dropoffLoc" placeholder="Drop-off location">
+                            </div>
+                        </div>
+
+                        <div class="form-row" id="hourlyFields" style="display:none;">
+                            <div class="form-group">
+                                <label for="pickupLocHourly">Pickup Location</label>
+                                <input type="text" id="pickupLocHourly" placeholder="Where should we meet you?">
+                            </div>
+                            <div class="form-group">
+                                <label for="hoursCount">Number of Hours</label>
+                                <select id="hoursCount" onchange="updatePriceEstimate()">
+                                    <option value="2">2 Hours (minimum)</option>
+                                    <option value="3">3 Hours</option>
+                                    <option value="4">4 Hours</option>
+                                    <option value="5">5 Hours</option>
+                                    <option value="6">6 Hours</option>
+                                    <option value="8">8 Hours</option>
+                                    <option value="10">10 Hours</option>
+                                    <option value="12">12 Hours</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group" id="estimatedMilesGroup">
+                            <label for="estimatedMiles">Estimated Trip Distance (miles)</label>
+                            <input type="number" id="estimatedMiles" value="25" min="1" max="500"
+                                onchange="updatePriceEstimate()" oninput="updatePriceEstimate()">
+                            <span
+                                style="font-size:0.7rem;color:var(--text-muted);margin-top:4px;display:block;">Approximate.
+                                Final pricing confirmed at booking.</span>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="pickupDate">Date</label>
+                                <input type="date" id="pickupDate">
+                            </div>
+                            <div class="form-group">
+                                <label for="pickupTime">Time</label>
+                                <input type="time" id="pickupTime">
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="passengerCount">Passengers</label>
+                                <select id="passengerCount">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="10">10</option>
+                                    <option value="14">14</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="luggageCount">Luggage</label>
+                                <select id="luggageCount">
+                                    <option value="0">None / Light</option>
+                                    <option value="2">2 pieces</option>
+                                    <option value="4">4 pieces</option>
+                                    <option value="6">6 pieces</option>
+                                    <option value="8">8+ pieces</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Add-Ons</label>
+                            <div class="addon-grid" id="addonGrid">
+                                <label class="addon-item" data-addon="infant" data-price="15"
+                                    onclick="toggleAddon(this)">
+                                    <input type="checkbox"> Infant Car Seat <span class="addon-price">+$15</span>
+                                </label>
+                                <label class="addon-item" data-addon="toddler" data-price="15"
+                                    onclick="toggleAddon(this)">
+                                    <input type="checkbox"> Toddler Seat <span class="addon-price">+$15</span>
+                                </label>
+                                <label class="addon-item" data-addon="booster" data-price="10"
+                                    onclick="toggleAddon(this)">
+                                    <input type="checkbox"> Booster Seat <span class="addon-price">+$10</span>
+                                </label>
+                                <label class="addon-item" data-addon="champagne" data-price="45"
+                                    onclick="toggleAddon(this)">
+                                    <input type="checkbox"> Champagne Setup <span class="addon-price">+$45</span>
+                                </label>
+                                <label class="addon-item" data-addon="floral" data-price="65"
+                                    onclick="toggleAddon(this)">
+                                    <input type="checkbox"> Floral Arrangement <span class="addon-price">+$65</span>
+                                </label>
+                                <label class="addon-item" data-addon="security" data-price="0"
+                                    onclick="toggleAddon(this)">
+                                    <input type="checkbox"> Security Driver <span class="addon-price">Quote</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="specialRequests">Special Requests</label>
+                            <textarea id="specialRequests"
+                                placeholder="Flight number (for airport pickups), specific vehicle requests, or any other details..."></textarea>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="fullName">Full Name</label>
+                                <input type="text" id="fullName" placeholder="Your full name">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" placeholder="your@email.com">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="phone">Phone</label>
+                                <input type="tel" id="phone" placeholder="(305) 555-0100">
+                            </div>
+                            <div class="form-group">
+                                <label for="company">Company (optional)</label>
+                                <input type="text" id="company" placeholder="Company name">
+                            </div>
+                        </div>
+
+                        <button class="btn btn-primary form-submit" onclick="submitBooking()">
+                            <i class="ti ti-send"></i> Request Booking — Estimated Total: <span
+                                id="submitEstimate">$75</span>
+                        </button>
+                        <p style="font-size:0.7rem;color:var(--text-muted);text-align:center;margin-top:0.75rem;">This
+                            is a reservation request, not a confirmed booking. We will confirm availability and final
+                            pricing within 30 minutes.</p>
+                    </div>
+
+                    <div class="price-summary" id="priceSummary">
+                        <h3><i class="ti ti-calculator"></i> Price Estimate</h3>
+                        <div class="summary-line"><span>Base Rate</span><span id="summaryBase">$87.50</span></div>
+                        <div class="summary-line" id="meetGreetLine" style="display:none;"><span>Meet & Greet
+                                Fee</span><span id="summaryMeetGreet">+$30.00</span></div>
+                        <div class="summary-line" id="addonsLine" style="display:none;"><span>Add-Ons</span><span
+                                id="summaryAddons">+$0.00</span></div>
+                        <div class="summary-line"><span>Estimated Gratuity (20%)</span><span
+                                id="summaryGratuity">$17.50</span></div>
+                        <div class="summary-line total"><span>Estimated Total</span><span class="summary-amount"
+                                id="summaryTotal">$105.00</span></div>
+                        <div class="summary-note">
+                            <strong>Estimate based on:</strong> selected vehicle × estimated 25 miles at per-mile rate.
+                            Airport transfers include curbside pickup as standard. Meet & Greet adds $30. Hourly rates
+                            use vehicle hourly fee. Add-ons calculated separately. Final quote confirmed at booking.
+                        </div>
+                        <div class="summary-note" style="margin-top:0.5rem;color:var(--gold);">
+                            <strong>⚡ No surge pricing. Ever.</strong> The rate you see is the rate you pay — regardless
+                            of demand, weather, or time of day.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- ════════════════ FOOTER ════════════════ -->
+    <footer class="footer">
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <h3>La Tía de la USA</h3>
+                <p>Premium black car and luxury transportation serving South Florida's most discerning clients.
+                    Family-owned. Independently operated. Uncompromising quality.</p>
+                <div class="footer-cta">
+                    <a href="tel:+13055550100" class="phone-link">
+                        <i class="ti ti-phone-call"></i> (305) 555-0100
+                    </a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Navigate</h4>
+                <ul>
+                    <li><a onclick="switchPage('home')">Home</a></li>
+                    <li><a onclick="switchPage('fleet')">Our Fleet</a></li>
+                    <li><a onclick="switchPage('services')">Services</a></li>
+                    <li><a onclick="switchPage('pricing')">Pricing</a></li>
+                    <li><a onclick="switchPage('booking')">Book Now</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Service Area</h4>
+                <ul>
+                    <li><a>Miami-Dade County</a></li>
+                    <li><a>Broward County</a></li>
+                    <li><a>Palm Beach County</a></li>
+                    <li style="margin-top:0.75rem;"><a>MIA · FLL · PBI Airports</a></li>
+                    <li><a>PortMiami · Port Everglades</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>&copy; 2026 La Tía de la USA Transportation. All rights reserved.</span>
+            <span>Licensed & Fully Insured · DOT Certified</span>
+        </div>
+    </footer>
+
+    <script type="module" src="/src/main.ts"></script>
+</body>
+
+</html>
