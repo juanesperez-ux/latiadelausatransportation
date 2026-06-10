@@ -1,0 +1,61 @@
+/* ═══════════════════════════════════════════════════════════════════════
+   BUTTONS — La Tía de la USA Transportation
+   All button variants: primary, outline, ghost, small.
+   ═══════════════════════════════════════════════════════════════════════ */
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 14px 28px;
+  border-radius: var(--radius-md);
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  transition: all var(--transition-fast);
+  white-space: nowrap;
+}
+
+.btn-primary {
+  background: var(--gold);
+  color: #0A0A0A;
+}
+
+.btn-primary:hover {
+  background: var(--gold-light);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 28px var(--gold-glow);
+}
+
+.btn-outline {
+  background: transparent;
+  color: var(--text-primary);
+  border: 1px solid var(--border-subtle);
+}
+
+.btn-outline:hover {
+  border-color: var(--gold);
+  color: var(--gold);
+  background: var(--gold-dim);
+}
+
+.btn-ghost {
+  background: transparent;
+  color: var(--gold);
+  padding: 10px 20px;
+  font-size: 0.8rem;
+}
+
+.btn-ghost:hover {
+  background: var(--gold-dim);
+}
+
+.btn-sm {
+  padding: 8px 16px;
+  font-size: 0.75rem;
+  border-radius: var(--radius-sm);
+}

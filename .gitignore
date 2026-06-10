@@ -26,3 +26,6 @@ logs
 # Environment
 .env
 .env.local
+
+# Graphify local state (generated cache, not source)
+.graphify

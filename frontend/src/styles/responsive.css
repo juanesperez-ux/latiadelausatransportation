@@ -1,0 +1,84 @@
+/* ═══════════════════════════════════════════════════════════════════════
+   RESPONSIVE — La Tía de la USA Transportation
+   All media queries organized by breakpoint.
+   ═══════════════════════════════════════════════════════════════════════ */
+
+/* ── 1200px ── */
+@media (max-width: 1200px) {
+  .vd-layout { grid-template-columns: 1fr 300px; gap: 2rem; }
+  .market-compare-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* ── 1024px ── */
+@media (max-width: 1024px) {
+  .hero-grid { grid-template-columns: 1fr; text-align: center; }
+  .hero-content .hero-sub { margin: 0 auto 2.5rem; }
+  .hero-ctas { justify-content: center; }
+  .hero-visual { display: none; }
+  .fleet-preview-grid { grid-template-columns: repeat(2, 1fr); }
+  .vd-hero { grid-template-columns: 1fr; gap: 2rem; }
+  .vd-hero-visual { display: none; }
+  .vd-layout { grid-template-columns: 1fr; }
+  .vd-sidebar { position: static; display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+  .vd-features-list { grid-template-columns: 1fr; }
+  .vd-market-compare { display: none; }
+  .booking-layout { grid-template-columns: 1fr; }
+  .price-summary { position: static; }
+  .fcs-header { flex-direction: column; gap: 1.5rem; }
+  .fcs-stats { flex-wrap: wrap; }
+  .footer-inner { grid-template-columns: 1fr 1fr; }
+}
+
+/* ── 768px ── */
+@media (max-width: 768px) {
+  :root { --nav-height: 64px; }
+
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: var(--nav-height);
+    left: 0; right: 0;
+    background: rgba(8, 8, 11, 0.98);
+    backdrop-filter: blur(20px);
+    flex-direction: column;
+    padding: 1rem;
+    border-bottom: 1px solid var(--border-subtle);
+    gap: 2px;
+  }
+  .nav-links.open { display: flex; }
+  .mobile-toggle { display: block; }
+  .nav-cta { margin-left: 0; width: 100%; text-align: center; justify-content: center; }
+
+  .section { padding: 3rem 1.25rem; }
+  .hero { min-height: auto; padding: 4rem 1.25rem 5rem; }
+  .fleet-preview-grid { grid-template-columns: 1fr; }
+  .fcs-vehicles { grid-template-columns: repeat(2, 1fr); }
+  .fleet-category.active { grid-template-columns: 1fr; }
+  .services-grid { grid-template-columns: 1fr; }
+  .ph-grid { grid-template-columns: 1fr; }
+  .market-compare-grid { grid-template-columns: 1fr; }
+  .form-row { grid-template-columns: 1fr; }
+  .addon-grid { grid-template-columns: 1fr; }
+  .features-grid-4 { grid-template-columns: 1fr 1fr; }
+  .vd-layout { grid-template-columns: 1fr; }
+  .vd-sidebar { grid-template-columns: 1fr; }
+  .vd-quick-stats { flex-direction: column; }
+  .footer-inner { grid-template-columns: 1fr; gap: 2rem; }
+  .footer-bottom { flex-direction: column; text-align: center; }
+  .pricing-table { font-size: 0.75rem; display: block; overflow-x: auto; }
+  .pricing-table thead, .pricing-table tbody { display: table; width: 100%; min-width: 500px; }
+  .trust-inner { gap: 1.25rem; }
+  .trust-item { font-size: 0.7rem; }
+}
+
+/* ── 480px ── */
+@media (max-width: 480px) {
+  .hero-content h1 { font-size: 2.2rem; }
+  .hero-ctas { flex-direction: column; }
+  .btn { width: 100%; justify-content: center; }
+  .hero-features { gap: 1rem; }
+  .service-toggle-group { flex-direction: column; }
+  .features-grid-4 { grid-template-columns: 1fr; }
+  .fcs-vehicles { grid-template-columns: 1fr; }
+  .vd-features-list { grid-template-columns: 1fr; }
+}

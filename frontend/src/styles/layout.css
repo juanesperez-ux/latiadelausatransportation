@@ -1,0 +1,60 @@
+/* ═══════════════════════════════════════════════════════════════════════
+   LAYOUT — La Tía de la USA Transportation
+   Page switching, sections, back link, page animation.
+   ═══════════════════════════════════════════════════════════════════════ */
+
+.page {
+  display: none;
+  animation: pageIn 0.5s ease forwards;
+}
+
+.page.active {
+  display: block;
+}
+
+@keyframes pageIn {
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.section {
+  padding: 5rem 2rem;
+}
+
+.section-inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+.section-header {
+  margin-bottom: 3.5rem;
+}
+
+.section-header .section-label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.section-header h2 {
+  margin-bottom: 0.75rem;
+}
+
+.section-header p {
+  color: var(--text-secondary);
+  font-size: 1.05rem;
+  max-width: 600px;
+}
+
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  cursor: pointer;
+  margin-bottom: 2rem;
+  transition: color var(--transition-fast);
+}
+
+.back-link:hover { color: var(--gold); }
+.back-link i { font-size: 1rem; }

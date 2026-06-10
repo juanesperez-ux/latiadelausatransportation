@@ -1,0 +1,155 @@
+/* ═══════════════════════════════════════════════════════════════════════
+   PRICING — La Tía de la USA Transportation
+   Pricing tables, market comparison grid, airport pickup policy.
+   ═══════════════════════════════════════════════════════════════════════ */
+
+.pricing-section-title {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  color: var(--off-white);
+  margin-bottom: 1rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.pricing-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 2.5rem;
+  font-size: 0.88rem;
+}
+
+.pricing-table thead th {
+  text-align: left;
+  padding: 14px 16px;
+  font-size: 0.7rem; font-weight: 700;
+  letter-spacing: 0.12em; text-transform: uppercase;
+  color: var(--gold);
+  border-bottom: 2px solid var(--border-gold);
+}
+
+.pricing-table tbody td {
+  padding: 14px 16px;
+  border-bottom: 1px solid var(--border-subtle);
+  color: var(--text-secondary);
+  vertical-align: top;
+}
+.pricing-table tbody tr:hover td { background: var(--bg-card-alt); color: var(--text-primary); }
+
+.pricing-table .price-val {
+  font-family: var(--font-display);
+  font-size: 1.3rem; font-weight: 600;
+  color: var(--gold);
+  white-space: nowrap;
+}
+
+.pricing-table .vehicle-col { font-weight: 600; color: var(--text-primary); white-space: nowrap; }
+
+/* ── Market Comparison (Pricing Page) ── */
+.market-comparison-section { margin-top: 1rem; }
+
+.market-compare-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+.market-option {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  padding: 1.5rem;
+  position: relative;
+  transition: all var(--transition-smooth);
+}
+.market-option:hover { border-color: var(--border-accent); transform: translateY(-2px); }
+
+.mo-header {
+  display: flex; align-items: center; gap: 8px;
+  font-size: 0.8rem; font-weight: 600;
+  color: var(--text-secondary);
+  margin-bottom: 0.75rem;
+}
+.mo-header i { color: var(--gold); font-size: 1rem; }
+
+.mo-price {
+  font-family: var(--font-display);
+  font-size: 2.2rem; font-weight: 600;
+  color: var(--off-white);
+  line-height: 1;
+  margin-bottom: 1rem;
+}
+.mo-price small { font-size: 0.8rem; color: var(--text-muted); font-family: var(--font-body); }
+
+.mo-features {
+  display: flex; flex-direction: column;
+  gap: 6px;
+  margin-bottom: 2.5rem;
+}
+.mo-features span {
+  font-size: 0.72rem; color: var(--text-muted);
+  display: flex; align-items: center; gap: 6px;
+}
+.mo-features span i { font-size: 0.8rem; }
+.mo-features span i.ti-check { color: var(--success); }
+.mo-features span i.ti-x { color: var(--danger); }
+.mo-features span i.ti-alert-triangle { color: var(--gold); }
+.mo-features span i.ti-question-mark { color: var(--text-muted); }
+
+.mo-badge {
+  position: absolute; bottom: 1rem; left: 1.5rem;
+  font-size: 0.6rem; font-weight: 700;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  padding: 4px 12px;
+  border-radius: 50px;
+}
+.mo-badge.gold { background: var(--gold-dim); color: var(--gold); border: 1px solid var(--border-gold); }
+.mo-badge.muted { color: var(--text-muted); }
+
+/* ── Airport Pickup Policy ── */
+.pricing-highlight {
+  background: var(--bg-card);
+  border: 1px solid var(--border-gold);
+  border-radius: var(--radius-lg);
+  padding: 1.75rem;
+  margin-bottom: 2.5rem;
+}
+.pricing-highlight h3 {
+  font-size: 1rem; margin-bottom: 1rem;
+  display: flex; align-items: center; gap: 8px;
+  color: var(--off-white);
+}
+.pricing-highlight h3 i { color: var(--gold); }
+
+.ph-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem; }
+
+.ph-item {
+  background: var(--bg-card-alt);
+  border-radius: var(--radius-md);
+  padding: 1.25rem;
+  text-align: center;
+}
+.ph-item .ph-price { font-family: var(--font-display); font-size: 2rem; font-weight: 600; color: var(--gold); line-height: 1; }
+.ph-item .ph-label { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--text-muted); margin-top: 4px; }
+.ph-item .ph-desc { font-size: 0.75rem; color: var(--text-secondary); margin-top: 6px; }
+
+.ph-item.premium { position: relative; }
+.ph-item.premium::before {
+  content: 'RECOMMENDED';
+  position: absolute; top: -10px; left: 50%; transform: translateX(-50%);
+  background: var(--gold); color: #0A0A0A;
+  font-size: 0.6rem; font-weight: 700; letter-spacing: 0.1em;
+  padding: 3px 14px;
+  border-radius: 50px;
+}
+
+.pricing-note {
+  background: var(--gold-dim);
+  border: 1px solid var(--border-accent);
+  border-radius: var(--radius-md);
+  padding: 1.25rem;
+  font-size: 0.8rem; color: var(--text-secondary);
+  line-height: 1.7;
+  margin-top: 1.5rem;
+}
+.pricing-note strong { color: var(--gold); }

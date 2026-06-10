@@ -1,0 +1,59 @@
+/* ═══════════════════════════════════════════════════════════════════════
+   DESIGN TOKENS — La Tía de la USA Transportation
+   Single source of truth for colors, typography, spacing, and effects.
+   ═══════════════════════════════════════════════════════════════════════ */
+
+:root {
+  /* ── Colors: Background ── */
+  --bg-deep: #08080B;
+  --bg-card: #111116;
+  --bg-card-alt: #16161C;
+  --bg-surface: #1A1A22;
+
+  /* ── Colors: Brand (Gold) ── */
+  --gold: #C9A84C;
+  --gold-light: #D4B96A;
+  --gold-dark: #A68A3A;
+  --gold-dim: rgba(201, 168, 76, 0.12);
+  --gold-glow: rgba(201, 168, 76, 0.25);
+
+  /* ── Colors: Text ── */
+  --text-primary: #EDEDF0;
+  --text-secondary: #A0A0AE;
+  --text-muted: #6B6B7B;
+  --text-on-dark: #D4D4DC;
+  --white: #FFFFFF;
+  --off-white: #F0EFEA;
+
+  /* ── Colors: Borders ── */
+  --border-subtle: rgba(255, 255, 255, 0.06);
+  --border-gold: rgba(201, 168, 76, 0.3);
+  --border-accent: rgba(201, 168, 76, 0.18);
+
+  /* ── Colors: Semantic ── */
+  --success: #4ADE80;
+  --danger: #EF4444;
+
+  /* ── Radii ── */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+
+  /* ── Shadows ── */
+  --shadow-card: 0 1px 2px rgba(0, 0, 0, 0.4), 0 4px 16px rgba(0, 0, 0, 0.3);
+  --shadow-lg: 0 8px 40px rgba(0, 0, 0, 0.5);
+
+  /* ── Transitions ── */
+  --transition-fast: 0.2s cubic-bezier(0.22, 0.61, 0.36, 1);
+  --transition-smooth: 0.35s cubic-bezier(0.22, 0.61, 0.36, 1);
+  --transition-slow: 0.6s cubic-bezier(0.22, 0.61, 0.36, 1);
+
+  /* ── Typography ── */
+  --font-display: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+  --font-body: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+
+  /* ── Layout ── */
+  --max-width: 1280px;
+  --nav-height: 72px;
+}

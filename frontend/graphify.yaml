@@ -1,0 +1,31 @@
+# ══════════════════════════════════════════════════════════════════════
+# GRAPHIFY CONFIG — La Tía de la USA Transportation
+# Knowledge graph generation for the luxury transportation web app.
+# ══════════════════════════════════════════════════════════════════════
+
+version: 1
+
+inputs:
+  # Analyze all files (not just committed), including untracked modules
+  scope: all
+
+  # Corpus directories to analyze
+  corpus:
+    - src
+    - public
+    - .
+
+  # Exclude large generated files and node_modules
+  exclude:
+    - node_modules
+    - dist
+    - package-lock.json
+
+outputs:
+  state_dir: .graphify
+  write_html: true
+  write_wiki: false
+  write_profile_report: true
+
+dataprep:
+  pdf_ocr: "off"

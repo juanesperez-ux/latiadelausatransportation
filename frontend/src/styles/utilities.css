@@ -1,0 +1,28 @@
+/* ═══════════════════════════════════════════════════════════════════════
+   UTILITIES — La Tía de la USA Transportation
+   Scrollbar styling, image fallback placeholders.
+   ═══════════════════════════════════════════════════════════════════════ */
+
+/* ── Scrollbar ── */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--bg-deep); }
+::-webkit-scrollbar-thumb { background: var(--bg-surface); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--text-muted); }
+
+/* ── Image Fallback ── */
+.img-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  color: var(--text-muted);
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.img-placeholder i {
+  font-size: 2rem;
+  color: var(--gold);
+  opacity: 0.4;
+}

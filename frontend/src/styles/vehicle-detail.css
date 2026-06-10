@@ -1,0 +1,187 @@
+/* ═══════════════════════════════════════════════════════════════════════
+   VEHICLE DETAIL — La Tía de la USA Transportation
+   Individual vehicle detail pages: hero, layout, features, pricing, comparison.
+   ═══════════════════════════════════════════════════════════════════════ */
+
+.vehicle-detail-page .section { padding-top: 3rem; }
+
+/* ── Detail Hero ── */
+.vd-hero {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 3rem;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.vd-hero-content { animation: pageIn 0.6s ease forwards; }
+.vd-hero-content h1 { font-size: clamp(2.2rem, 4.5vw, 3.8rem); margin: 0.5rem 0 1rem; }
+
+.vd-subtitle { font-size: 1.05rem; color: var(--text-secondary); line-height: 1.7; max-width: 520px; }
+
+.vd-quick-stats { display: flex; gap: 1.5rem; margin-top: 1.5rem; flex-wrap: wrap; }
+
+.vd-stat {
+  display: flex; align-items: center; gap: 8px;
+  font-size: 0.85rem; color: var(--text-muted);
+  padding: 8px 16px;
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+}
+.vd-stat i { color: var(--gold); opacity: 0.7; font-size: 1rem; }
+
+.vd-hero-visual {
+  display: flex; align-items: center; justify-content: center;
+  animation: heroVisualIn 1s ease forwards;
+}
+
+.vd-visual-placeholder {
+  width: 100%; max-width: 320px;
+  aspect-ratio: 16/10;
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-xl);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 4rem;
+  color: var(--gold);
+  opacity: 0.25;
+}
+
+/* ── Detail Layout ── */
+.vd-layout {
+  display: grid;
+  grid-template-columns: 1fr 360px;
+  gap: 3rem;
+  margin-bottom: 3rem;
+}
+
+.vd-main h3 {
+  font-size: 1.5rem; margin: 2rem 0 1rem;
+  color: var(--off-white);
+}
+.vd-main h3:first-child { margin-top: 0; }
+.vd-main p { font-size: 0.95rem; color: var(--text-secondary); line-height: 1.8; margin-bottom: 1rem; }
+
+.vd-features-list {
+  list-style: none; display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+}
+.vd-features-list li {
+  font-size: 0.88rem; color: var(--text-secondary);
+  display: flex; align-items: flex-start; gap: 10px;
+  line-height: 1.5;
+}
+.vd-features-list li i { color: var(--gold); font-size: 0.9rem; margin-top: 3px; flex-shrink: 0; }
+
+.vd-tags { display: flex; flex-wrap: wrap; gap: 8px; }
+
+.vd-tag {
+  font-size: 0.72rem; font-weight: 600;
+  letter-spacing: 0.06em; text-transform: uppercase;
+  padding: 6px 14px;
+  border: 1px solid var(--border-accent);
+  border-radius: 50px;
+  color: var(--gold); background: var(--gold-dim);
+}
+
+/* ── Detail Sidebar ── */
+.vd-sidebar { position: sticky; top: calc(var(--nav-height) + 2rem); }
+
+.vd-pricing-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  padding: 1.75rem;
+  margin-bottom: 1.5rem;
+}
+.vd-pricing-card.premium { border-color: var(--border-gold); }
+
+.vd-pricing-card h4 {
+  font-size: 1rem; color: var(--gold);
+  margin-bottom: 1rem;
+  text-transform: uppercase; letter-spacing: 0.08em;
+  font-family: var(--font-body); font-weight: 600;
+}
+
+.vd-price-row {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--border-subtle);
+  font-size: 0.85rem; color: var(--text-secondary);
+}
+.vd-price-row strong { font-family: var(--font-display); font-size: 1.2rem; color: var(--off-white); }
+
+/* ── Market Comparison (Vehicle Detail) ── */
+.vd-market-compare {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  padding: 1.5rem;
+}
+.vd-market-compare h4 {
+  font-size: 0.8rem; color: var(--text-muted);
+  margin-bottom: 1rem;
+  text-transform: uppercase; letter-spacing: 0.08em;
+  font-family: var(--font-body); font-weight: 600;
+}
+
+.compare-bar { margin-bottom: 0.75rem; }
+.compare-label { font-size: 0.72rem; color: var(--text-muted); margin-bottom: 4px; }
+
+.compare-track {
+  height: 22px;
+  background: var(--bg-surface);
+  border-radius: 4px;
+  overflow: hidden;
+  position: relative;
+}
+
+.compare-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--gold), var(--gold-light));
+  border-radius: 4px;
+  display: flex; align-items: center; justify-content: flex-end;
+  padding-right: 8px;
+  font-size: 0.65rem; font-weight: 700;
+  color: #0A0A0A; min-width: fit-content; white-space: nowrap;
+}
+.compare-fill.other {
+  background: var(--bg-card-alt); color: var(--text-muted);
+  border: 1px solid var(--border-subtle);
+}
+
+.compare-note {
+  font-size: 0.7rem; color: var(--text-muted);
+  line-height: 1.5; margin-top: 1rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--border-subtle);
+}
+.compare-note strong { color: var(--gold); }
+
+/* ── Detail Extras ── */
+.vd-extras {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+.vd-extras h3 { font-size: 1.2rem; margin-bottom: 1.25rem; }
+
+.vd-extras-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 0.75rem;
+}
+
+.vd-extra-item {
+  display: flex; align-items: center; gap: 10px;
+  padding: 12px 16px;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  font-size: 0.82rem; color: var(--text-secondary);
+}
+.vd-extra-item i { color: var(--gold); font-size: 1.1rem; opacity: 0.6; }

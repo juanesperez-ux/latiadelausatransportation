@@ -1,0 +1,28 @@
+/* ═══════════════════════════════════════════════════════════════════════
+   TYPOGRAPHY — La Tía de la USA Transportation
+   Headings, labels, utility text classes.
+   ═══════════════════════════════════════════════════════════════════════ */
+
+h1, h2, h3, h4, .display-font, .hero-title {
+  font-family: var(--font-display);
+  font-weight: 500;
+  letter-spacing: -0.01em;
+}
+
+h1 { font-size: clamp(2.8rem, 6vw, 5.5rem); line-height: 1.05; color: var(--off-white); }
+h2 { font-size: clamp(2rem, 4.5vw, 3.8rem); line-height: 1.1; color: var(--off-white); }
+h3 { font-size: clamp(1.3rem, 2.5vw, 1.8rem); line-height: 1.2; color: var(--off-white); }
+h4 { font-family: var(--font-display); font-size: 1.1rem; font-weight: 500; color: var(--off-white); }
+
+.section-label {
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--gold);
+}
+
+.body-lg { font-size: 1.1rem; line-height: 1.75; color: var(--text-secondary); }
+.text-gold { color: var(--gold); }
+.text-muted { color: var(--text-muted); }
